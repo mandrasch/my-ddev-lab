@@ -1,15 +1,23 @@
 ---
-title: Quick install
-description: 'Installing WordPress in DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI),therefore you can just download WordPress and install it locally.'
-position: 1
-category: WordPress
+head:
+  - - meta
+    - name: description
+      content: "Installing WordPress in DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI),therefore you can just download WordPress and install it locally:"
 ---
 
-Installing WordPress in DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI),therefore you can just download WordPress and install it locally:
+# Quickly install WordPress with DDEV
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Cn72ix44ex4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Installing WordPress with DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI).
 
-```
+If you create a DDEV project with `ddev config --project-type=wordpress`, a wp-config.php is created which already contains the correct database connection settings (db, db, db) for DDEV.
+
+Therefore it is really easy to install a fresh WordPress with just a few commands:
+
+<TwoClickYoutubePrivacy videoId="Cn72ix44ex4" />
+
+The commands shown in this video:
+
+```bash
 mkdir my-wp-site
 cd my-wp-site/
 

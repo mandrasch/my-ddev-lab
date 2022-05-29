@@ -1,10 +1,9 @@
 ---
-title: Pull via SSH into Gitpod
+title: Pull via SSH (in Gitpod)
 description: Page description.
-position: 5
-category: WordPress
 ---
 
+# {$frontmatter.title}
 
 https://github.com/mandrasch/ddev-pull-wp-scripts
 
