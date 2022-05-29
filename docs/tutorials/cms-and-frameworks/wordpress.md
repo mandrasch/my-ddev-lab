@@ -39,6 +39,8 @@ ddev launch
 
 ## Pulling WordPress
 
+TODO: Move docs from https://github.com/mandrasch/ddev-pull-wp-scripts to this documenation.
+
 - https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/
 
 ### Pull via BackWPup

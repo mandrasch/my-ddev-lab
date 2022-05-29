@@ -69,6 +69,10 @@ function getGeneralSidebar() {
         { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
         { text: "Kirby", link: "/tutorials/cms-and-frameworks/kirby" },
         { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
+        {
+          text: "Inertia (Laravel)",
+          link: "/tutorials/cms-and-frameworks/inertia",
+        },
         { text: "Typo3", link: "/tutorials/cms-and-frameworks/typo3" },
       ],
     },
