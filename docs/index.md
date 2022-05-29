@@ -8,6 +8,10 @@ sidebarDepth: 2
 
 # Hello!
 
+::: warning
+This site is Work in Progress.
+:::
+
 This site contains _experimental_ projects done with [DDEV](https://ddev.com/).
 
 In most cases I tried to support the usage of the cloud IDE [Gitpod](https://gitpod.io/). My goal is to enable robust local development as well as one-click-in-browser development (if needed).
