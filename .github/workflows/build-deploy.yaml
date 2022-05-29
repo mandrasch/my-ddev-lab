@@ -40,20 +40,22 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: docs/.vitepress/dist # The folder the action should deploy.
 
-
       # If you need more privacy / no tracking,
       # sync your site to your own webspace
       # https://github.com/marketplace/actions/ftp-deploy
 
       # Build again if you need another path prefix
-      # - name: Install and Build for FTP 🔧
-      #   run: |
-      #    npm install
-      #    npm run build
+      - name: Install and Build for FTP 🔧
+        run: |
+          npm install
+          npm run build
 
-      #- name: 📂 Sync files
-      #  uses: SamKirkland/FTP-Deploy-Action@4.1.0
-      #  with:
-      #    server: ftp.samkirkland.com
-      #    username: myFtpUserName
-      #    password: ${{ secrets.ftp_password }}
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.host }}
+          username: ${{ secrets.user }}
+          password: ${{ secrets.password }}
+          protocol: ftps
+          port: 23
+          local-dir: docs/.vitepress/dist/
