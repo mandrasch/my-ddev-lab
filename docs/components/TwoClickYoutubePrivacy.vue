@@ -27,16 +27,29 @@ function loadVideo() {
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 1px dotted var(--c-brand);
     "
   >
-    <div v-if="!isAccepted" style="display: flex; flex-direction: column">
+    <div
+      v-if="!isAccepted"
+      style="
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        align-items: center;
+        border: 3px dotted var(--c-brand);
+      "
+    >
       <p>
         If you load this video, you accept the
         <a href="https://policies.google.com/privacy">privacy policy</a> of
         YouTube/Google.
       </p>
-      <button @click="loadVideo" style="cursor: pointer">
+      <button
+        @click="loadVideo"
+        style="cursor: pointer; width: 200px; height: 50px"
+      >
         Load YouTube video
       </button>
     </div>
