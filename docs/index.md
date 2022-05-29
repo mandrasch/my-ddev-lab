@@ -8,19 +8,17 @@ sidebarDepth: 2
 
 # Hello!
 
-::: warning
+This site contains _experimental_ projects done with [DDEV](https://ddev.com/).
+
+In most cases I tried to additionally support the usage of the cloud IDE [Gitpod](https://gitpod.io/). My goal is to enable robust local development as well as (optional) one-click-development in the browser window.
+
+::: info
 This site is Work in Progress.
 :::
 
-This site contains _experimental_ projects done with [DDEV](https://ddev.com/).
-
-In most cases I tried to support the usage of the cloud IDE [Gitpod](https://gitpod.io/). My goal is to enable robust local development as well as one-click-in-browser development (if needed).
-
-Thanks for all people sharing their DDEV snippets and examples! Please consider [sponsoring DDEV maintainer Randy Fay](https://github.com/sponsors/rfay) if you use DDEV in your daily work.
-
 ## What is DDEV?
 
-DDEV is an awesome open Source tool to create local development enviroments which can be shared via git.
+DDEV is an awesome open source tool to create local development enviroments which can be shared via git.
 
 - https://ddev.com/ddev-local/why-standardization-is-important-to-teaching-web-development/
 - TODO: add good image here, maybe
@@ -34,4 +32,6 @@ DDEV is an awesome open Source tool to create local development enviroments whic
 - DDEV discord
 - Awesome DDEV
 
-#
+Thanks to all people sharing their DDEV snippets and examples!
+
+**Please consider [sponsoring DDEV maintainer Randy Fay](https://github.com/sponsors/rfay) if you use DDEV in your daily work.**

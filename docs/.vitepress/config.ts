@@ -60,34 +60,16 @@ function getGeneralSidebar() {
       text: "Introduction",
       children: [
         { text: "What is DDEV?", link: "/" },
-        { text: "What is Gitpod?", link: "/what-is-gitpod" },
-      ],
-    },
-    {
-      text: "WordPress",
-      children: [
-        { text: "Quick install", link: "/tutorials/wordpress/quick-install" },
-        {
-          text: "Pull via BackWPup",
-          link: "/tutorials/wordpress/pull-backwpup",
-        },
-        {
-          text: "Pull via BackWPup (GitPod)",
-          link: "/tutorials/wordpress/pull-backwpup-gitpod",
-        },
-        { text: "Pull via SSH", link: "/tutorials/wordpress/pull-ssh" },
-        {
-          text: "Pull via SSH (GitPod)",
-          link: "/tutorials/wordpress/pull-ssh-gitpod",
-        },
+        { text: "DDEV + Gitpod", link: "/ddev-meets-gitpod" },
       ],
     },
     {
       text: "CMS & frameworks",
       children: [
-        { text: "Kirby", link: "/tutorials/other-cms/kirby" },
-        { text: "Statamic", link: "/tutorials/other-cms/statamic" },
-        { text: "Typo3", link: "/tutorials/other-cms/typo3" },
+        { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
+        { text: "Kirby", link: "/tutorials/cms-and-frameworks/kirby" },
+        { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
+        { text: "Typo3", link: "/tutorials/cms-and-frameworks/typo3" },
       ],
     },
     {
@@ -95,7 +77,7 @@ function getGeneralSidebar() {
       children: [
         {
           text: "Browsersync, LaravelMix, Vite, etc.",
-          link: "/nodejs-tools/laravel-mix-vite-etc.md",
+          link: "/tutorials/nodejs-tools/laravel-mix-vite-etc",
         },
       ],
     },

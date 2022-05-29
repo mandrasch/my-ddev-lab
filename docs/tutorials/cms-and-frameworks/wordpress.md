@@ -5,7 +5,9 @@ head:
       content: "Installing WordPress in DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI),therefore you can just download WordPress and install it locally:"
 ---
 
-# Quickly install WordPress with DDEV
+# WordPress
+
+## Quick install
 
 Installing WordPress with DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI).
 
@@ -35,26 +37,28 @@ ddev launch
 
 [Official docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#command-line-setup-example-using-wp-cli)
 
-### Optional
+## Pulling WordPress
 
-```
+- https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/
 
-# optional: you can use the following installation command
+### Pull via BackWPup
 
-# or finish the installation in the browser (see next step, run ddev launch)
+TODO: Add content
 
-# (we need to use single quotes to get the primary site URL from .ddev/config.yaml as variable)
+### Pull via BackWPup into GitPod
 
-`ddev wp core install --url='$DDEV_PRIMARY_URL' --title='New-WordPress' --admin_user=admin --admin_email=admin@example.com --prompt=admin_password`
+TODO: Add content
 
-# open the website (https://my-wp-site.ddev.site) in your browser:
+https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
 
-# open WordPress admin dashboard in your browser:
+https://github.com/mandrasch/ddev-pull-wp-scripts
 
-ddev launch wp-admin/
+### Pull via SSH
 
-```
+https://github.com/mandrasch/ddev-pull-wp-scripts
 
-```
+<TwoClickYoutubePrivacy videoId="lEGL65H-hts" />
 
-```
+### Pull via SSH into Gitpod
+
+TODO: Add content
