@@ -39,9 +39,14 @@ ddev launch
 
 ## Pulling WordPress
 
-TODO: Move docs from https://github.com/mandrasch/ddev-pull-wp-scripts to this documenation.
+DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull databases and files from remote servers to your local development project.
 
-- https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/
+- TODO: Move docs from https://github.com/mandrasch/ddev-pull-wp-scripts to this documenation.
+- TODO: Move blog posts?
+  - https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
+  - https://matthias-andrasch.eu/blog/2022/pull-a-wordpress-site-into-ddev-2022-edition/
+  - https://matthias-andrasch.eu/blog/2021/import-a-wordpress-site-into-ddev-ddev-pull-backwpupfile/
+- What about online tool? https://ddev-pull-wp.mandrasch.eu/
 
 ### Pull via BackWPup
 
