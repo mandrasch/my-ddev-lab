@@ -50,22 +50,27 @@ DDEV offers an incredible feature called [Hosting Provider Integration](https://
 
 ### Pull via BackWPup
 
+TODO: Add screencast
+
+- https://github.com/mandrasch/ddev-pull-wp-scripts#-ddev-pull-backup
+
 TODO: Add content
 
 ### Pull via BackWPup into GitPod
 
+TODO: Add screencast
+
+- https://github.com/mandrasch/ddev-pull-wp-scripts#-ddev-pull-backup
+- https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
+
 TODO: Add content
-
-https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
-
-https://github.com/mandrasch/ddev-pull-wp-scripts
 
 ### Pull via SSH
 
-https://github.com/mandrasch/ddev-pull-wp-scripts
+- https://github.com/mandrasch/ddev-pull-wp-scripts#%EF%B8%8F--ddev-pull-ssh
 
 <TwoClickYoutubePrivacy videoId="lEGL65H-hts" />
 
 ### Pull via SSH into Gitpod
 
-TODO: Add content
+TODO: Add content / how to use SSH keys there?
