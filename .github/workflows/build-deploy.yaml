@@ -57,5 +57,5 @@ jobs:
           username: ${{ secrets.user }}
           password: ${{ secrets.password }}
           protocol: ftps
-          port: 23
-          local-dir: /docs/.vitepress/dist/
+          #port: 23
+          local-dir: ./docs/.vitepress/dist/
