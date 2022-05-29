@@ -1,11 +1,23 @@
 import { defineConfig } from "vitepress";
 
+let basePath = "/";
+if (process.env.BASE_PATH) {
+  console.log(
+    "Received BASE_PATH from node process.env",
+    process.env.BASE_PATH
+  );
+  basePath = process.env.BASE_PATH;
+}
+
 export default defineConfig({
   lang: "en-US",
   title: "My DDEV Lab",
   description:
     "This site contains my experimental projects done with the awesome developer environment tool DDEV (Open Source).",
   lastUpdated: true,
+
+  // https://vitepress.vuejs.org/config/basics.html#base
+  base: basePath,
 
   themeConfig: {
     repo: "mandrasch/my-ddev-lab",
