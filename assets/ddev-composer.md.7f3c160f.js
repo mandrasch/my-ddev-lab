@@ -1,0 +1,7 @@
+import{_ as e,c as t,o as r,a as o}from"./app.3b8639a3.js";const u='{"title":"Composer","description":"","frontmatter":{},"headers":[],"relativePath":"ddev-composer.md","lastUpdated":1654248926000}',a={},s=o(`<h1 id="composer" tabindex="-1">Composer <a class="header-anchor" href="#composer" aria-hidden="true">#</a></h1><p>DDEV has built-in support for composer. DDEV has a special command called</p><div class="language-bash"><pre><code>ddev <span class="token function">composer</span> create <span class="token string">&quot;&lt;package&gt;:&lt;version&gt;&quot;</span>
+</code></pre></div><p>It is basically a wrapper around <a href="https://getcomposer.org/doc/03-cli.md#create-project" target="_blank" rel="noopener noreferrer">composer create-project</a>, but it moves all files to the project folder root automatically after installation.</p><p>This is quite handy, because it is very simple to setup a simple php project and pull in a project repository, e.g. <a href="https://github.com/getkirby/starterkit" target="_blank" rel="noopener noreferrer">getkirby/starterkit</a>:</p><div class="language-"><pre><code>mkdir my-new-project
+cd my-new-project/
+ddev config --project-type=php
+ddev composer create getkirby/starterkit
+ddev launch
+</code></pre></div><p>Read more in the <a href="https://ddev.readthedocs.io/en/stable/users/developer-tools/#ddev-and-composer" target="_blank" rel="noopener noreferrer">official docs</a>.</p>`,7),p=[s];function c(n,d,i,l,m,_){return r(),t("div",null,p)}var f=e(a,[["render",c]]);export{u as __pageData,f as default};

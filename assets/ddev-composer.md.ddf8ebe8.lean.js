@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,a as o}from"./app.3b8639a3.js";const f='{"title":"Composer","description":"","frontmatter":{},"headers":[],"relativePath":"ddev-composer.md","lastUpdated":1654248348000}',a={},s=o("",7),p=[s];function c(n,i,d,l,m,_){return r(),t("div",null,p)}var u=e(a,[["render",c]]);export{f as __pageData,u as default};
