@@ -40,6 +40,8 @@ ddev please make:user
 ddev launch /cp
 ```
 
+**TODO:** Add support for [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) via LaravelMix.
+
 ## Install a starter kit (Peak)
 
 1. Follow quickstart above
