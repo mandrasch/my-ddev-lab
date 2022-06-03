@@ -6,7 +6,7 @@ DDEV has built-in support for composer. DDEV has a special command called
 ddev composer create "<package>:<version>"
 ```
 
-It is similiar to [composer create-project](https://getcomposer.org/doc/03-cli.md#create-project), but it moves all files to the project folder root automatically after installation.
+It is basically a wrapper around [composer create-project](https://getcomposer.org/doc/03-cli.md#create-project), but it moves all files to the project folder root automatically after installation.
 
 This is quite handy, because it is very simple to setup a simple php project and pull in a project repository, e.g. [getkirby/starterkit](https://github.com/getkirby/starterkit):
 
