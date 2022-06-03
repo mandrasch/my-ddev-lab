@@ -1,13 +1,19 @@
 # What is Gitpod?
 
-TODO: add content
+TODO: add content / tutorial
 
-<TwoClickYoutubePrivacy videoId="Kx5nnuEUsiY" />
+**Demo:**
+
+<TwoClickYoutubePrivacy videoId="1QPKqxp0YIY" />
 
 **Resources:**
 
-- https://github.com/shaal/ddev-gitpod
+- Option A: https://github.com/shaal/ddev-gitpod
   - Example usage:
     - https://github.com/mandrasch/ddev-kirby-starterkit/blob/main/.gitpod.yml
     - https://github.com/mandrasch/ddev-kirby-starterkit/tree/main/.gitpod
-    - https://github.com/drud/ddev-gitpod-launcher
+- Option B: https://github.com/drud/ddev-gitpod-launcher
+
+**Technical background:**
+
+<TwoClickYoutubePrivacy videoId="Kx5nnuEUsiY" />
