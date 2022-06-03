@@ -60,6 +60,7 @@ function getGeneralSidebar() {
       text: "Introduction",
       children: [
         { text: "What is DDEV?", link: "/" },
+        { text: "DDEV + composer", link: "/ddev-composer" },
         { text: "DDEV + Gitpod", link: "/ddev-meets-gitpod" },
       ],
     },

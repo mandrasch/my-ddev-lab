@@ -10,6 +10,8 @@ head:
 ## Quickstart
 
 ```bash
+mkdir my-new-statamic
+cd my-new-statamic/
 ddev config --project-type=laravel --docroot=public --create-docroot
 ddev composer create statamic/statamic
 ddev exec "cp .env.example .env"
