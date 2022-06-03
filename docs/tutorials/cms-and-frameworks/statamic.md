@@ -6,7 +6,7 @@ head:
 ---
 
 ::: info
-This chapter is work in progress (WIP), [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
 :::
 
 # Statamic
@@ -58,3 +58,9 @@ Error installing starter kit [studio1902/statamic-peak].
 ```
 
 See: https://peak.1902.studio/getting-started/installation.html#installation-via-the-cli
+
+## Pull content / media files
+
+DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull files from remote servers to your local development project.
+
+TODO: Add example
