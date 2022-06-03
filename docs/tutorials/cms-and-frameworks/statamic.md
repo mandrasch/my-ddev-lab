@@ -39,3 +39,20 @@ Afterwards you can create your admin user:
 ddev please make:user
 ddev launch /cp
 ```
+
+## Install a starter kit (Peak)
+
+1. Follow quickstart above
+2. Run `ddev please starter-kit:install studio1902/statamic-peak`
+
+Currently fails with
+
+```bash
+Composer could not authenticate with GitHub!
+Please generate a personal access token at: https://github.com/settings/tokens/new
+Then save your token for future use by running the following command:
+composer config --global --auth github-oauth.github.com [your-token-here]
+Error installing starter kit [studio1902/statamic-peak].
+```
+
+See: https://peak.1902.studio/getting-started/installation.html#installation-via-the-cli
