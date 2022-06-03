@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r,a}from"./app.3b8639a3.js";const m='{"title":"What is Gitpod?","description":"","frontmatter":{},"headers":[],"relativePath":"ddev-meets-gitpod.md","lastUpdated":1654247020000}',i={},d=a("",4),o=[d];function s(n,h,l,p,c,_){return r(),e("div",null,o)}var u=t(i,[["render",s]]);export{m as __pageData,u as default};
