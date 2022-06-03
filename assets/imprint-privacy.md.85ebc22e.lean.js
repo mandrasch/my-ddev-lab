@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,a}from"./app.ae8a6e4d.js";const b='{"title":"Imprint / Privacy","description":"","frontmatter":{},"headers":[],"relativePath":"imprint-privacy.md","lastUpdated":1654254374000}',o={},n=a("",11),s=[n];function i(p,c,d,h,m,l){return r(),t("div",null,s)}var u=e(o,[["render",i]]);export{b as __pageData,u as default};
