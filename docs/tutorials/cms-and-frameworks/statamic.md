@@ -5,11 +5,15 @@ head:
       content: ""
 ---
 
+::: info
+This chapter is work in progress (WIP), [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+:::
+
 # Statamic
 
 ## Example repositories
 
-- https://github.com/mandrasch/ddev-statamic-blank
+- https://github.com/mandrasch/ddev-statamic-blank ([🚀&nbsp; Open in Gitpod](https://gitpod.io/#https://github.com/mandrasch/ddev-statamic-blank/))
 - Peak Starter Kit (WIP)
 
 ## Quickstart

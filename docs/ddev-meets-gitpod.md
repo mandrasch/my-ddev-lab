@@ -2,6 +2,8 @@
 
 TODO: add content
 
+<TwoClickYoutubePrivacy videoId="Kx5nnuEUsiY" />
+
 **Resources:**
 
 - https://github.com/shaal/ddev-gitpod
