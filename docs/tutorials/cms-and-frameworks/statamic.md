@@ -7,6 +7,11 @@ head:
 
 # Statamic
 
+## Example repositories
+
+- https://github.com/mandrasch/ddev-statamic-blank
+- Peak Starter Kit (WIP)
+
 ## Quickstart
 
 ```bash
@@ -30,8 +35,3 @@ Afterwards you can create your admin user:
 ddev please make:user
 ddev launch /cp
 ```
-
-**Example repositories**
-
-- https://github.com/mandrasch/ddev-statamic-blank
-- Peak Starter Kit (WIP)
