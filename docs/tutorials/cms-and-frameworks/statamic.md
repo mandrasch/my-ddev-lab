@@ -87,4 +87,10 @@ ddev composer config --global --auth github-oauth.github.com [your-token-here]
 
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull files from remote servers to your local development project.
 
+### Git strategy
+
+To use push, we'll ignore the content folder in git locally:
+
+Add `/content to `.gitignore`
+
 TODO: Add example
