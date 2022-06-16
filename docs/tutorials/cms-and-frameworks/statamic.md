@@ -85,9 +85,15 @@ ddev composer config --global --auth github-oauth.github.com [your-token-here]
 
 ## Pull content / media files from production
 
+::: info
+This chapter is work in progress (WIP) 🚧
+:::
+
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull files from remote servers to your local development project.
 
-Add these lines to your `.gitignore` file:
+Disclaimer: Statamic offers [Git automation](https://statamic.dev/git-automation). This approach is not used here, since I want to separate config (git) from site content (on live server). 
+
+First add these lines to your `.gitignore` file. We will pull the site specific content from the production / live site and don't store it in git.
 
 ```bash
 # Don't store site specific content, we'll pull it from live site
@@ -98,10 +104,7 @@ Add these lines to your `.gitignore` file:
 /storage/forms/
 ```
 
-### Git strategy
+TODO: Add example for pull of these directories to local DDEV / use extension/.zip to implement this as well?
 
-To use push, we'll ignore the content folder in git locally:
+## TODOs
 
-Add `/content to `.gitignore`
-
-TODO: Add example
