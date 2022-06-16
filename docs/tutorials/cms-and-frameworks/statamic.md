@@ -27,13 +27,11 @@ ddev exec "cp .env.example .env"
 ddev artisan key:generate
 # Add support for CLI please command
 ddev get mandrasch/ddev-please
+# Set the APP_URL to ddev project URL in .env,
+# e.g. APP_URL=https://ddev-statamic-blank.ddev.site
+# TODO: automate this step as well via bash command
 ddev launch
 ```
-
-Set the APP_URL to ddev project URL in .env, e.g. `APP_URL=https://ddev-statamic-blank.ddev.site`
-
-Add support for `please` command in `.ddev/commands/web`:
-https://github.com/mandrasch/ddev-statamic-blank/blob/main/.ddev/commands/web/please
 
 Afterwards you can create your admin user:
 
@@ -58,6 +56,9 @@ ddev please starter-kit:install studio1902/statamic-peak
 # Generate config & key
 ddev exec "cp .env.example .env"
 ddev artisan key:generate
+# Set the APP_URL to ddev project URL in .env,
+# e.g. APP_URL=https://ddev-statamic-blank.ddev.site
+# TODO: automate this step as well via bash command
 ddev launch
 ```
 
