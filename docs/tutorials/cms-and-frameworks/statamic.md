@@ -83,9 +83,20 @@ If the starter kit install fails with `Composer could not authenticate with GitH
 ddev composer config --global --auth github-oauth.github.com [your-token-here]
 ```
 
-## Pull content / media files
+## Pull content / media files from production
 
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull files from remote servers to your local development project.
+
+Add these lines to your `.gitignore` file:
+
+```bash
+# Don't store site specific content, we'll pull it from live site
+# (Comment these lines if you wan't to use Git automation)
+/content
+/users
+/public/assets
+/storage/forms/
+```
 
 ### Git strategy
 
