@@ -25,6 +25,8 @@ ddev config --project-type=laravel --docroot=public --create-docroot
 ddev composer create statamic/statamic
 ddev exec "cp .env.example .env"
 ddev artisan key:generate
+# Add support for CLI please command
+ddev get mandrasch/ddev-please
 ddev launch
 ```
 
@@ -44,8 +46,27 @@ ddev launch /cp
 
 ## Install a starter kit (Peak)
 
-1. Follow quickstart above
-2. Run `ddev please starter-kit:install studio1902/statamic-peak`
+```bash
+mkdir my-new-statamic
+cd my-new-statamic/
+ddev config --project-type=laravel --docroot=public --create-docroot
+ddev composer create statamic/statamic
+# Add support for CLI please command
+ddev get mandrasch/ddev-please
+# Install starterkit 
+ddev please starter-kit:install studio1902/statamic-peak
+# Generate config & key
+ddev exec "cp .env.example .env"
+ddev artisan key:generate
+ddev launch
+```
+
+Afterwards you can create your admin user:
+
+```bash
+ddev please make:user
+ddev launch /cp
+```
 
 Currently fails with
 
@@ -58,6 +79,9 @@ Error installing starter kit [studio1902/statamic-peak].
 ```
 
 See: https://peak.1902.studio/getting-started/installation.html#installation-via-the-cli
+
+**TODO:** Add support for [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) via LaravelMix.
+
 
 ## Pull content / media files
 
