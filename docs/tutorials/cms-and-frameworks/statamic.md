@@ -26,7 +26,7 @@ ddev composer create statamic/statamic
 ddev exec "cp .env.example .env"
 ddev artisan key:generate
 # Add support for CLI please command:
-ddev get mandrasch/ddev-please
+ddev get mandrasch/ddev-statamic-please
 # Set the APP_URL to ddev project URL in .env,
 # e.g. APP_URL=https://ddev-statamic-blank.ddev.site
 # TODO: automate this step as well via bash command
@@ -52,7 +52,7 @@ cd my-new-statamic/
 ddev config --project-type=laravel --docroot=public --create-docroot
 ddev composer create statamic/statamic
 # Add support for CLI please command:
-ddev get mandrasch/ddev-please
+ddev get mandrasch/ddev-statamic-please
 # Install starter kit 
 ddev please starter-kit:install studio1902/statamic-peak
 # Generate config & key
