@@ -56,12 +56,10 @@ ddev composer create statamic/statamic
 ddev get mandrasch/ddev-statamic-please
 # Install starter kit 
 ddev please starter-kit:install studio1902/statamic-peak
-# Generate config & key
+# Generate config, set APP_URL & generate key
 ddev exec "cp .env.example .env"
 ddev artisan key:generate
-# Set the APP_URL to ddev project URL in .env,
-# e.g. APP_URL=https://ddev-statamic-blank.ddev.site
-# TODO: automate this step as well via bash command
+ddev exec 'sed -i "/APP_URL=/c APP_URL=$DDEV_PRIMARY_URL" .env'
 ddev launch
 ```
 
@@ -109,7 +107,7 @@ TODO: Add example for pull of these directories to local DDEV / use extension/.z
 ## TODOs
 
 - [ ] Add support for [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) via LaravelMix.
-- [ ] Add simple command to quickstart for replacing .env APP_URL with DDEV_PRIMARY_URL (https://discord.com/channels/664580571770388500/912420662847619162/992748945107341372)
+(https://discord.com/channels/664580571770388500/912420662847619162/992748945107341372)
 - [ ] Add support for Vite as soon as it is implemented officially
-- [ ] Implement DDEV pull as addon
+- [ ] Implement DDEV pull script as addon(?)
 
