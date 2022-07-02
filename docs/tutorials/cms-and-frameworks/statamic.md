@@ -30,8 +30,8 @@ ddev composer create statamic/statamic
 
 # Generate config, set APP_URL & generate key
 ddev exec "cp .env.example .env"
-ddev artisan key:generate
 ddev exec 'sed -i "/APP_URL=/c APP_URL=$DDEV_PRIMARY_URL" .env'
+ddev artisan key:generate
 
 # Add support for CLI please command via DDEV-addon:
 # (https://github.com/mandrasch/ddev-statamic-please)
