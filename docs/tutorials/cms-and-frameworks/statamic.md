@@ -25,7 +25,8 @@ cd my-new-statamic/
 # Create configuration for DDEV project
 ddev config --project-type=laravel --docroot=public --create-docroot
 
-# Install latest statamic via composer
+# Install latest statamic via DDEV + composer
+# (https://ddev.readthedocs.io/en/stable/users/developer-tools/#ddev-and-composer)
 ddev composer create statamic/statamic
 
 # Generate config, set APP_URL & generate key
@@ -33,7 +34,7 @@ ddev exec "cp .env.example .env"
 ddev exec 'sed -i "/APP_URL=/c APP_URL=$DDEV_PRIMARY_URL" .env'
 ddev artisan key:generate
 
-# Add support for CLI please command via DDEV-addon:
+# Add support for CLI please command via simple DDEV-addon:
 # (https://github.com/mandrasch/ddev-statamic-please)
 ddev get mandrasch/ddev-statamic-please
 
