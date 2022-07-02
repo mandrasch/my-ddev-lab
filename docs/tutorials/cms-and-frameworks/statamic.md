@@ -11,6 +11,8 @@ This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](h
 
 # Statamic
 
+I published a series (work in progress) on dev.to as well: [My Statamic deployment journey](https://dev.to/mandrasch/series/18729).
+
 ## Example repositories
 
 - https://github.com/mandrasch/ddev-statamic-blank ([🚀&nbsp; Open in Gitpod](https://gitpod.io/#https://github.com/mandrasch/ddev-statamic-blank/))
