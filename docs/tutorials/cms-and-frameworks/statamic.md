@@ -40,6 +40,10 @@ ddev artisan key:generate
 # (https://github.com/mandrasch/ddev-statamic-please)
 ddev get mandrasch/ddev-statamic-please
 
+# Compile JS/SCSS
+ddev exec npm install
+ddev exec npm run dev
+
 ddev launch
 ```
 
