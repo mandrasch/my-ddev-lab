@@ -21,16 +21,22 @@ This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](h
 ```bash
 mkdir my-new-statamic
 cd my-new-statamic/
+
+# Create configuration for DDEV project
 ddev config --project-type=laravel --docroot=public --create-docroot
+
+# Install latest statamic via composer
 ddev composer create statamic/statamic
+
+# Generate config, set APP_URL & generate key
 ddev exec "cp .env.example .env"
 ddev artisan key:generate
-# Add support for CLI please command:
+ddev exec 'sed -i "/APP_URL=/c APP_URL=$DDEV_PRIMARY_URL" .env'
+
+# Add support for CLI please command via DDEV-addon:
 # (https://github.com/mandrasch/ddev-statamic-please)
 ddev get mandrasch/ddev-statamic-please
-# Set the APP_URL to ddev project URL in .env,
-# e.g. APP_URL=https://ddev-statamic-blank.ddev.site
-# TODO: automate this step as well via bash command
+
 ddev launch
 ```
 
@@ -40,8 +46,6 @@ Afterwards you can create your admin user:
 ddev please make:user
 ddev launch /cp
 ```
-
-**TODO:** Add support for [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) via LaravelMix.
 
 ## Install a starter kit (Peak)
 
@@ -111,3 +115,6 @@ TODO: Add example for pull of these directories to local DDEV / use extension/.z
 - [ ] Add support for Vite as soon as it is implemented officially
 - [ ] Implement DDEV pull script as addon(?)
 
+# Bonus info
+
+- https://ddev.com/ddev-local/getting-started-with-ddev-and-composer/
