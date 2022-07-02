@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,a as o}from"./app.ae8a6e4d.js";const u='{"title":"Composer","description":"","frontmatter":{},"headers":[],"relativePath":"ddev-composer.md","lastUpdated":1656762589000}',a={},s=o("",7),p=[s];function c(n,d,i,l,_,h){return r(),t("div",null,p)}var f=e(a,[["render",c]]);export{u as __pageData,f as default};
