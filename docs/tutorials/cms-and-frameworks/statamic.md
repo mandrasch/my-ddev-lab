@@ -118,4 +118,5 @@ TODO: Add example for pull of these directories to local DDEV / use extension/.z
 
 # Bonus info
 
+- If you need database support, just add DDEVs database connection settings to `.env` via `ddev exec "cat .env.example | sed  -E 's/DB_(HOST|DATABASE|USERNAME|PASSWORD)=(.*)/DB_\1=db/g' > .env"`
 - https://ddev.com/ddev-local/getting-started-with-ddev-and-composer/
