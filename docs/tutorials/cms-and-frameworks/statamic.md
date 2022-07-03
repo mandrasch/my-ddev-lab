@@ -6,7 +6,7 @@ head:
 ---
 
 ::: info
-This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Also support for [vite](https://stackoverflow.com/questions/72130137/ddev-laravel-vite-websockets-with-soketi-trouble-with-port-configuration/72405747) would be awesome. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
 :::
 
 # Statamic
@@ -119,7 +119,7 @@ TODO: Add example for pull of these directories to local DDEV / use extension/.z
 
 - [ ] Add support for [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) via LaravelMix.
 (https://discord.com/channels/664580571770388500/912420662847619162/992748945107341372)
-- [ ] Add support for Vite as soon as it is implemented officially
+- [ ] Add support for Vite as soon as it is implemented officially https://stackoverflow.com/questions/72130137/ddev-laravel-vite-websockets-with-soketi-trouble-with-port-configuration/72405747
 - [ ] Implement DDEV pull script as addon(?)
 
 # Bonus info
