@@ -92,6 +92,18 @@ GET https://[::]:3000/@vite/client net::ERR_BLOCKED_BY_CLIENT
 
 And visiting `<my-site>.ddev.site:3000/@vite/client` results in `Fehlercode: SSL_ERROR_RX_RECORD_TOO_LONG` (Firefox).
 
+Also getting these warnings
+
+```bash
+/ddev-laravel-breeze-vite % ddev vite-serve start
+ WARN  Moving @tailwindcss/forms that was installed by a different package manager to "node_modules/.ignored
+ WARN  Moving alpinejs that was installed by a different package manager to "node_modules/.ignored
+ WARN  Moving autoprefixer that was installed by a different package manager to "node_modules/.ignored
+ WARN  Moving axios that was installed by a different package manager to "node_modules/.ignored
+ WARN  Moving laravel-vite-plugin that was installed by a different package manager to "node_modules/.ignored
+ WARN  4 other warnings
+```
+
 
 ## Inertia
 
