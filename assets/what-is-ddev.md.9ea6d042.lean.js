@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,a}from"./app.f17146ad.js";const f='{"title":"What is DDEV?","description":"","frontmatter":{},"headers":[],"relativePath":"what-is-ddev.md","lastUpdated":1657357294000}',o={},n=a("",7),s=[n];function d(i,l,h,p,c,m){return r(),t("div",null,s)}var v=e(o,[["render",d]]);export{f as __pageData,v as default};
