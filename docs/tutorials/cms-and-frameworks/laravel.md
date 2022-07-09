@@ -37,12 +37,19 @@ ddev artisan breeze:install
 ddev artisan migrate
 ddev exec npm install
 
-# Vite integration via https://github.com/torenware/ddev-viteserve
+# Vite integration via https://github.com/torenware/ddev-viteserve, thx @torenware!
 ddev get torenware/ddev-viteserve
 # Change VITE_PROJECT_DIR=frontend to VITE_PROJECT_DIR=./
 # in .ddev/docker-compose.viteserve.yaml
-ddev restart
-ddev vite-serve start
+
+```
+
+Change `VITE_PROJECT_DIR=frontend` to `VITE_PROJECT_DIR=./` in `.ddev/docker-compose.viteserve.yaml`:
+
+```yaml
+    environment:
+      # Set the vite-enabled js project here:
+      - VITE_PROJECT_DIR=./
 ```
 
 Add https and host URL to `vite.config.js`
