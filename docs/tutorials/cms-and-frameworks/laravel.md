@@ -37,10 +37,9 @@ ddev artisan breeze:install
 ddev artisan migrate
 ddev exec npm install
 
-# Vite integration via https://github.com/torenware/ddev-viteserve, thx @torenware!
+# Vite integration via https://github.com/torenware/ddev-viteserve
+# Thanks very much to @torenware!
 ddev get torenware/ddev-viteserve
-# Change VITE_PROJECT_DIR=frontend to VITE_PROJECT_DIR=./
-# in .ddev/docker-compose.viteserve.yaml
 
 ```
 
@@ -70,6 +69,13 @@ export default defineConfig({
         host: 'laravel-breeze-test-vite.ddev.site',
     },
 });
+```
+
+Run the following to apply this:
+
+```bash
+ddev restart
+ddev vite-serve start
 ```
 
 Open the login/ page (vite is not used on the index page) with
