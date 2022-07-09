@@ -61,8 +61,9 @@ function getGeneralSidebar() {
       children: [
         { text: "Hello!", link: "/" },
         { text: "What is DDEV?", link: "/what-is-ddev" },
-        { text: "DDEV + composer", link: "/ddev-composer" },
+        { text: "DDEV + Composer", link: "/ddev-composer" },
         { text: "DDEV + Gitpod", link: "/ddev-meets-gitpod" },
+        { text: "DDEV - Tips & tricks", link: "/ddev-tips-and-tricks"}
       ],
     },
     {
@@ -70,11 +71,12 @@ function getGeneralSidebar() {
       children: [
         { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
         { text: "Kirby", link: "/tutorials/cms-and-frameworks/kirby" },
-        { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
+
         {
-          text: "Inertia (Laravel)",
-          link: "/tutorials/cms-and-frameworks/inertia",
+          text: "Laravel",
+          link: "/tutorials/cms-and-frameworks/laravel",
         },
+        { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
         { text: "Typo3", link: "/tutorials/cms-and-frameworks/typo3" },
       ],
     },
