@@ -19,7 +19,9 @@ Source: [DDEV docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#larav
 
 🚧 Work in progress, currently not working 🚧
 
-This will install the [Laravel Breeze](https://laravel.com/docs/9.x/starter-kits#laravel-breeze) starter kit. Recently Laravel switched from LaravelMix/Webpack to vite.
+This will install the [Laravel Breeze](https://laravel.com/docs/9.x/starter-kits#laravel-breeze) starter kit. Recently Laravel switched from LaravelMix/Webpack to vite. Thanks to @torenware for the DDEV vite addon.
+
+Demo repository: https://github.com/mandrasch/ddev-laravel-breeze-vite
 
 ```bash
 # Install Laravel via DDEV composer
@@ -31,10 +33,10 @@ ddev config --project-type=laravel --docroot=public --create-docroot && \
   ddev exec "php artisan key:generate"
 
 # Install breeze starter kit
-ddev composer require laravel/breeze --dev
-ddev artisan breeze:install
-ddev artisan migrate
-ddev exec npm install
+ddev composer require laravel/breeze --dev && \
+  ddev artisan breeze:install && \
+  ddev artisan migrate && \
+  ddev exec npm install
 
 # Vite integration via https://github.com/torenware/ddev-viteserve
 # Thanks very much to @torenware!
