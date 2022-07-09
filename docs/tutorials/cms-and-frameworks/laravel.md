@@ -22,7 +22,6 @@ Source: [DDEV docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#larav
 This will install the [Laravel Breeze](https://laravel.com/docs/9.x/starter-kits#laravel-breeze) starter kit. Recently Laravel switched from LaravelMix/Webpack to vite.
 
 ```bash
-
 # Install Laravel via DDEV composer
 ddev config --project-type=laravel --docroot=public --create-docroot && \
   ddev start && \
