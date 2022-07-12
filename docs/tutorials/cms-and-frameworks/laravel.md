@@ -66,9 +66,19 @@ export default defineConfig({
     ],
     server: {
         https: true,
-        host: 'laravel-breeze-test-vite.ddev.site',
+        port: 3001,
+        hmr: {
+          host: 'laravel-breeze-test-vite.ddev.site'
+        }
     },
 });
+```
+
+
+**IMPORTANT:** There was a bug in [laravel-vite-plugin](https://www.npmjs.com/package/laravel-vite-plugin), which did not use hmr.host for the blade @vite template. Update to [v.0.3](https://github.com/laravel/vite-plugin/releases/tag/v0.3.0) with
+
+```bash
+ddev exec npm install laravel-vite-plugin@latest
 ```
 
 Run the following to apply this:
@@ -84,14 +94,6 @@ Open the login/ page (vite is not used on the index page) with
 ddev launch /login
 ````
 
-Currently it results in:
-
-```bash
-GET https://[::]:3000/@vite/client net::ERR_BLOCKED_BY_CLIENT
-```
-
-And visiting `<my-site>.ddev.site:3000/@vite/client` results in `Fehlercode: SSL_ERROR_RX_RECORD_TOO_LONG` (Firefox).
-
 Also getting these warnings
 
 ```bash
@@ -103,6 +105,10 @@ Also getting these warnings
  WARN  Moving laravel-vite-plugin that was installed by a different package manager to "node_modules/.ignored
  WARN  4 other warnings
 ```
+
+Current progress:
+
+- https://github.com/torenware/ddev-viteserve/issues/2
 
 
 ## Inertia
