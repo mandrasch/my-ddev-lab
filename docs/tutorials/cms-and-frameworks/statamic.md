@@ -37,8 +37,8 @@ ddev exec 'sed -i "/APP_URL=/c APP_URL=$DDEV_PRIMARY_URL" .env'
 ddev artisan key:generate
 
 # Add support for CLI please command via simple DDEV-addon:
-# (https://github.com/mandrasch/ddev-statamic-please)
-ddev get mandrasch/ddev-statamic-please
+# (https://github.com/mandrasch/ddev-addon-statamic-please)
+ddev get mandrasch/ddev-addon-statamic-please
 
 # Compile JS/SCSS
 ddev exec npm install
@@ -64,8 +64,8 @@ cd my-new-statamic/
 ddev config --project-type=laravel --docroot=public --create-docroot
 ddev composer create statamic/statamic
 # Add support for CLI please command:
-ddev get mandrasch/ddev-statamic-please
-# Install starter kit 
+ddev get mandrasch/ddev-addon-statamic-please
+# Install starter kit
 ddev please starter-kit:install studio1902/statamic-peak
 # Generate config, set APP_URL & generate key
 ddev exec "cp .env.example .env"
@@ -83,7 +83,7 @@ ddev launch /cp
 
 General source: https://peak.1902.studio/getting-started/installation.html#installation-via-the-cli
 
-**TODO:** 
+**TODO:**
 ### Troubleshooting
 
 If the starter kit install fails with `Composer could not authenticate with GitHub!`, [generate a token with no permissions](https://github.com/settings/tokens/new) on GitHub and store it to DDEV:
@@ -100,7 +100,7 @@ This chapter is work in progress (WIP) 🚧
 
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull files from remote servers to your local development project.
 
-Disclaimer: Statamic offers [Git automation](https://statamic.dev/git-automation). This approach is not used here, since I want to separate config (git) from site content (on live server). 
+Disclaimer: Statamic offers [Git automation](https://statamic.dev/git-automation). This approach is not used here, since I want to separate config (git) from site content (on live server).
 
 First add these lines to your `.gitignore` file. We will pull the site specific content from the production / live site and don't store it in git.
 
