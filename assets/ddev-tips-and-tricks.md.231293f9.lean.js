@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as s,a as t}from"./app.f17146ad.js";const f='{"title":"Tips & tricks","description":"","frontmatter":{},"headers":[],"relativePath":"ddev-tips-and-tricks.md","lastUpdated":1657898878000}',r={},n=t("",10),o=[n];function d(c,i,p,l,_,h){return s(),a("div",null,o)}var g=e(r,[["render",d]]);export{f as __pageData,g as default};
