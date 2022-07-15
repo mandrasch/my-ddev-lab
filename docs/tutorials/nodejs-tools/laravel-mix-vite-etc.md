@@ -17,4 +17,6 @@ head:
 
 ## Vite
 
-See https://my-ddev-lab.mandrasch.eu/tutorials/cms-and-frameworks/laravel.html#breeze for the current (work in progress) approach.
+Example repo: https://github.com/mandrasch/vite-php-setup-ddev-test
+
+_See https://my-ddev-lab.mandrasch.eu/tutorials/cms-and-frameworks/laravel.html#breeze for the current (work in progress) approach for Laravel._
