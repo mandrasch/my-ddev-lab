@@ -20,12 +20,11 @@ export default defineConfig({
   base: basePath,
 
   themeConfig: {
-    repo: "mandrasch/my-ddev-lab",
-    docsDir: "docs",
-    docsBranch: "main",
-    editLinks: true,
-    editLinkText: "Edit this page on GitHub",
-    lastUpdated: "Last Updated",
+
+    editLink: {
+      pattern: 'https://github.com/mandrasch/my-ddev-lab/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
 
     nav: [
       { text: "Tutorials", link: "/", activeMatch: "^/$|^/tutorials/" },
@@ -51,6 +50,11 @@ export default defineConfig({
       "/config/": getConfigSidebar(), // subpage
       "/": getGeneralSidebar(),
     },
+
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/mandrasch/my-ddev-lab' }
+    ],
   },
 });
 
@@ -58,7 +62,7 @@ function getGeneralSidebar() {
   return [
     {
       text: "Introduction",
-      children: [
+      items: [
         { text: "Hello!", link: "/" },
         { text: "What is DDEV?", link: "/what-is-ddev" },
         { text: "DDEV + Composer", link: "/ddev-composer" },
@@ -68,7 +72,7 @@ function getGeneralSidebar() {
     },
     {
       text: "CMS & frameworks",
-      children: [
+      items: [
         { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
         { text: "Kirby", link: "/tutorials/cms-and-frameworks/kirby" },
 
@@ -82,7 +86,7 @@ function getGeneralSidebar() {
     },
     {
       text: "NodeJS",
-      children: [
+      items: [
         {
           text: "Browsersync, LaravelMix, Vite, etc.",
           link: "/tutorials/nodejs-tools/laravel-mix-vite-etc",
@@ -96,11 +100,11 @@ function getConfigSidebar() {
   return [
     {
       text: "App Config",
-      children: [{ text: "Basics", link: "/config/basics" }],
+      items: [{ text: "Basics", link: "/config/basics" }],
     },
     {
       text: "Theme Config",
-      children: [
+      items: [
         { text: "Homepage", link: "/config/homepage" },
         { text: "Algolia Search", link: "/config/algolia-search" },
         { text: "Carbon Ads", link: "/config/carbon-ads" },
