@@ -20,10 +20,9 @@ export default defineConfig({
   base: basePath,
 
   themeConfig: {
-
     editLink: {
-      pattern: 'https://github.com/mandrasch/my-ddev-lab/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      pattern: "https://github.com/mandrasch/my-ddev-lab/edit/main/docs/:path",
+      text: "Edit this page on GitHub",
     },
 
     nav: [
@@ -51,9 +50,8 @@ export default defineConfig({
       "/": getGeneralSidebar(),
     },
 
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mandrasch/my-ddev-lab' }
+      { icon: "github", link: "https://github.com/mandrasch/my-ddev-lab" },
     ],
   },
 });
@@ -67,21 +65,21 @@ function getGeneralSidebar() {
         { text: "What is DDEV?", link: "/what-is-ddev" },
         { text: "DDEV + Composer", link: "/ddev-composer" },
         { text: "DDEV + Gitpod", link: "/ddev-meets-gitpod" },
-        { text: "DDEV - Tips & tricks", link: "/ddev-tips-and-tricks"}
+        { text: "DDEV - Tips & tricks", link: "/ddev-tips-and-tricks" },
       ],
     },
     {
       text: "CMS & frameworks",
       items: [
-        { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
+        { text: "Craft CMS", link: "/tutorials/cms-and-frameworks/craftcms" },
         { text: "Kirby", link: "/tutorials/cms-and-frameworks/kirby" },
-
         {
           text: "Laravel",
           link: "/tutorials/cms-and-frameworks/laravel",
         },
         { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
         { text: "Typo3", link: "/tutorials/cms-and-frameworks/typo3" },
+        { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
       ],
     },
     {
