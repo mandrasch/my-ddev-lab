@@ -9,7 +9,8 @@ head:
 
 **Quickstart**
 
-https://ddev.readthedocs.io/en/stable/users/cli-usage/#typo3-composer-setup-example
+For a quickstart see the official typo3 docs:
+https://ddev.readthedocs.io/en/latest/users/quickstart/#typo3
 
 Also a a very good tutorial on how to setup a local DDEV environment for typo3 and deploy everything via Gitlab/Github/Bitbucket pipelines:
 
@@ -17,8 +18,14 @@ https://t3terminal.com/blog/de/typo3-gitlab-deployment/
 
 **DDEV providers (pull) integration**
 
-It is easy to pull the `fileadmin/` and database via `ddev pull`, see e.g. https://github.com/drud/ddev/discussions/2940#discussioncomment-1665163.
+It is easy to pull the `fileadmin/` and database via `ddev pull` ([Hosting integration](https://ddev.readthedocs.io/en/latest/users/providers/)).
+
+- German tutorial with example code for pulling the database: https://codeblog.at/staging-datenbank-in-ddev-importieren/
+- You could also use an `.env` file
+https://github.com/drud/ddev/discussions/2940#discussioncomment-1665163
+
+- See twitter discussion https://twitter.com/m_andrasch/status/1552193558857359360
 
 **Vite?**
 
-See https://twitter.com/kino_auge/status/1539843362127319040
+- See twitter discussion: https://twitter.com/kino_auge/status/1539843362127319040
