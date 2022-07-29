@@ -19,18 +19,10 @@ function loadVideo() {
 </script>
 
 <template>
-  <div
-    style="
-      width: 100%;
-      min-height: 300px;
-      max-height: 30%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    "
-  >
+  <div class="two-click-privacy">
     <div
       v-if="!isAccepted"
+      class="two-click-privacy__dialog"
       style="
         display: flex;
         flex-direction: column;
@@ -41,14 +33,21 @@ function loadVideo() {
         border: 3px dotted var(--c-brand);
       "
     >
+      <p style="font-weight: bold; margin-bottom: 5px">Embedded Video</p>
       <p>
-        If you load this video, you accept the
+        By loading this video, you accept the
         <a href="https://policies.google.com/privacy">privacy policy</a> of
         YouTube/Google.
       </p>
       <button
         @click="loadVideo"
-        style="cursor: pointer; width: 200px; height: 50px"
+        style="
+          cursor: pointer;
+          width: 200px;
+          height: 50px;
+          background-color: var(--vp-c-brand);
+          color: white;
+        "
       >
         Load YouTube video
       </button>
@@ -65,3 +64,21 @@ function loadVideo() {
     ></iframe>
   </div>
 </template>
+
+<style>
+.two-click-privacy {
+  width: 100%;
+  min-height: 300px;
+  max-height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+html.dark .two-click-privacy {
+  color: black;
+  background-color: #333;
+}
+</style>
