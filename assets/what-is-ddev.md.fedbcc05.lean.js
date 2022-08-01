@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,a}from"./app.dedece90.js";const f=JSON.parse('{"title":"What is DDEV?","description":"","frontmatter":{},"headers":[],"relativePath":"what-is-ddev.md","lastUpdated":1659334772000}'),o={name:"what-is-ddev.md"},n=a("",7),s=[n];function d(i,l,h,p,c,m){return r(),t("div",null,s)}var v=e(o,[["render",d]]);export{f as __pageData,v as default};
