@@ -47,4 +47,12 @@ Afterwards:
 ddev launch
 ```
 
-**TODO:** If you want to make the repository publicly available via GitHub, you might to move the license key to `.env` https://github.com/craftcms/craft/issues/42
+# **TODO:** If you want to make the repository publicly available via GitHub, you might to move the license key to `.env` https://github.com/craftcms/craft/issues/42
+
+## Deployment via Deployer
+
+- [Deploy Craft CMS with DDEV, Deployer and Ploi on Hetzner Cloud - Part 1](https://dev.to/mandrasch/deploy-craft-cms-with-ddev-deployer-and-ploi-on-hetzner-cloud-part-1-27l2)
+
+## Connect with community
+
+There is a dedicated #craftcms-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!
