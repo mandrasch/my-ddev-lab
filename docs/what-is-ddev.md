@@ -8,10 +8,7 @@ It is a standardized alternative for XAMPP, MAMP, etc.
 
 [Google Slides presentation](https://docs.google.com/presentation/d/1D0gLUe-o6nQA6OaDP6aeWDwgOyjm9jh-mzU7XUHn1sk/edit?usp=sharing)
 
-- TODO: add good image here, maybe https://speakerdeck.com/cmuench/magento-development-environment7?slide=8
-- https://ddev.readthedocs.io/en/latest/users/topics/how_ddev_works/
-- https://ddev.com/ddev-local/why-standardization-is-important-to-teaching-web-development/
-- https://mobile.twitter.com/randyfay/status/1479523885179543557
+Official docs: https://ddev.readthedocs.io/en/latest/users/topics/how_ddev_works/
 
 **Resources:**
 
