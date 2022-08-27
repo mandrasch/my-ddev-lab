@@ -2,15 +2,15 @@
 import { ref } from "vue";
 
 const props = defineProps({
-  videoId: String,
+  presentationId: String,
 });
 
 // Vue3 - make var reactive using the composition API
 const isAccepted = ref(false);
 
-function loadVideo() {
-  if (!props.videoId) {
-    console.error("No YouTube id given");
+function loadPresentation() {
+  if (!props.presentationId) {
+    console.error("No slide id given");
     return;
   }
 
@@ -33,16 +33,18 @@ function loadVideo() {
         border: 3px dotted var(--c-brand);
       "
     >
-      <p style="font-weight: bold; margin-bottom: 5px">Embedded Video</p>
+      <p style="font-weight: bold; margin-bottom: 5px">
+        Embedded Google Slides presentation
+      </p>
       <p>
-        By loading this video, you accept the
+        By loading this presentation, you accept the
         <a href="https://policies.google.com/privacy"
           >privacy policy and terms</a
         >
-        of YouTube/Google.
+        of Google Drive.
       </p>
       <button
-        @click="loadVideo"
+        @click="loadPresentation"
         style="
           cursor: pointer;
           width: 200px;
@@ -51,19 +53,25 @@ function loadVideo() {
           color: white;
         "
       >
-        Load YouTube video
+        Load Google Slides presentation
       </button>
     </div>
+
     <iframe
       v-if="isAccepted"
-      width="100%"
-      height="315"
-      :src="'https://www.youtube-nocookie.com/embed/' + props.videoId"
-      title="YouTube video player"
+      :src="
+        'https://docs.google.com/presentation/d/e/' +
+        props.presentationId +
+        '/embed?start=false&loop=false&delayms=3000'
+      "
       frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+      width="960"
+      height="569"
+      allowfullscreen="true"
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+    >
+    </iframe>
   </div>
 </template>
 

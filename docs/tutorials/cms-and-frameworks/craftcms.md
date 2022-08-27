@@ -46,3 +46,5 @@ Afterwards:
 ```sh
 ddev launch
 ```
+
+**TODO:** If you want to make the repository publicly available via GitHub, you might to move the license key to `.env` https://github.com/craftcms/craft/issues/42
