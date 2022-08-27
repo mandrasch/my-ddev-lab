@@ -65,7 +65,8 @@ function getGeneralSidebar() {
         { text: "What is DDEV?", link: "/what-is-ddev" },
         { text: "DDEV + Composer", link: "/ddev-composer" },
         { text: "DDEV + Gitpod", link: "/ddev-meets-gitpod" },
-        { text: "DDEV - Tips & tricks", link: "/ddev-tips-and-tricks" },
+        { text: "DDEV pull", link: "/ddev-pull" },
+        { text: "DDEV tips & tricks", link: "/ddev-tips-and-tricks" },
       ],
     },
     {
