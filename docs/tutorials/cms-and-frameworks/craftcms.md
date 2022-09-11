@@ -25,7 +25,7 @@ ddev composer create -y craftcms/craft
 
 You need to input the following answers:
 
-_TODO: How can the following be automated?_
+_TODO: How can the following be automated? Example here? https://github.com/thomasbendl/craft4-ddev-vite-blueprint/blob/main/Makefile#L8 (There is also an own project type coming up in DDEV)_
 
 > Which database driver are you using? <br>(mysql or pgsql) → mysql (default)<br>
 > Database server name or IP address → db<br>
