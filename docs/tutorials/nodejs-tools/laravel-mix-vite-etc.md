@@ -11,7 +11,7 @@ head:
 
 TODO: There has been some recent progress, it differs from CMS to CMS. See [DDEV discord](https://discord.gg/hCZFfAMc5k) for recent news!
 
-- Addon: https://github.com/torenware/ddev-viteserve (preferred)
+- Addon: https://github.com/torenware/ddev-viteserve
 - Simple addon: https://github.com/mandrasch/ddev-addon-simple-vite
   - Example repo: https://github.com/mandrasch/vite-php-setup-ddev-test
 - CraftCMS: https://nystudio107.com/docs/vite/#local-development-environment-setup

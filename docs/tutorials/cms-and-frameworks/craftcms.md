@@ -23,23 +23,21 @@ ddev composer create -y craftcms/craft
 # Are you ready to begin the setup? (yes|no) [no]: yes
 ```
 
-You need to input the following answers
+You need to input the following answers:
 
-_TODO: How can this be automated?_
+_TODO: How can the following be automated?_
 
-> At the end of that command, it will ask whether you’d like to begin the setup. Go ahead and answer yes. Then answer the subsequent prompts as follows:
-
-> Which database driver are you using? (mysql or pgsql) → mysql (default)
-> Database server name or IP address → db
-> Database port → 3306 (default)
-> Database username → db
-> Database password → db
-> Database name → db
+> Which database driver are you using? <br>(mysql or pgsql) → mysql (default)<br>
+> Database server name or IP address → db<br>
+> Database port → 3306 (default)<br>
+> Database username → db<br>
+> Database password → db<br>
+> Database name → db<br>
 > Database table prefix → (leave blank)
 
 > Answer yes to the prompt on whether to install Craft now, and answer the remaining prompts as you like. The only one that matters is Site URL, which you should answer with https://tutorial.ddev.site.
 
-Source: [Intro to CraftCMS: Install](https://craftcms.com/docs/getting-started-tutorial/install/)
+The above is quoted from [Intro to CraftCMS: Install](https://craftcms.com/docs/getting-started-tutorial/install/).
 
 Afterwards:
 
@@ -47,7 +45,7 @@ Afterwards:
 ddev launch
 ```
 
-# **TODO:** If you want to make the repository publicly available via GitHub, you might to move the license key to `.env` https://github.com/craftcms/craft/issues/42
+**TODO:** If you want to make the repository publicly available via GitHub, you might to move the license key to `.env` https://github.com/craftcms/craft/issues/42
 
 ## Deployment via Deployer
 
