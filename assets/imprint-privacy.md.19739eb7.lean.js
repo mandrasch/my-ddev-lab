@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,a}from"./app.7f52e756.js";const b=JSON.parse('{"title":"Imprint / Privacy","description":"","frontmatter":{},"headers":[],"relativePath":"imprint-privacy.md","lastUpdated":1664866031000}'),n={name:"imprint-privacy.md"},o=a("",11),i=[o];function s(p,c,d,m,h,l){return r(),t("div",null,i)}var u=e(n,[["render",s]]);export{b as __pageData,u as default};
