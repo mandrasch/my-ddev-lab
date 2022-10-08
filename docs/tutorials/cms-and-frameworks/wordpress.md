@@ -78,3 +78,12 @@ TODO: Add content
 ### Pull via SSH into Gitpod
 
 TODO: Add content / how to use SSH keys there?
+
+## Roots Sage (+ Roots Bedrock)
+
+Roots offers "Advanced WordPress Development Tools". I decided to test them with DDEV:
+
+- https://github.com/mandrasch/ddev-bedrock-sage
+- https://github.com/mandrasch/ddev-wp-sage
+
+Current open question regarding [HMR and internal links](https://discourse.roots.io/t/should-links-be-replaced-with-port-3000-as-well-in-dev-mode-hmr-ddev/24026)
