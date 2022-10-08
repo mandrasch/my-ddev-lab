@@ -38,3 +38,4 @@ WANTED: Example code. If you have a ddev/providers/-script which pulls database 
 **Vite?**
 
 - See twitter discussion: https://twitter.com/kino_auge/status/1539843362127319040
+- NEW: https://github.com/fgeierst/typo3-vite-demo
