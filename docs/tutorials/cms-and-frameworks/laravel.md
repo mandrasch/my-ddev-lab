@@ -15,7 +15,9 @@ Source: [DDEV docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#larav
 
 ## Starter kits (with vite)
 
-### Breeze
+📣 There is a new quickstart guide for laravel + vite coming to the DDEV docs, preview here: https://ddev--4236.org.readthedocs.build/en/4236/users/quickstart/#using-vite 📣 
+
+### Breeze (OUTDATED)
 
 🚧 Work in progress, currently not working 🚧
 
