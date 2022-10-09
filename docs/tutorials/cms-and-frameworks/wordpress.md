@@ -90,7 +90,9 @@ Current open question regarding [HMR and internal links](https://discourse.roots
 
 ## Timber
 
-[Timber](https://upstatement.com/timber/) "helps you create fully-customized WordPress themes faster with more sustainable code. With Timber, you write your HTML using the Twig Template Engine separate from your PHP files.". I created some example repositories, v2 is currently in beta:
+[Timber](https://upstatement.com/timber/) "helps you create fully-customized WordPress themes faster with more sustainable code. With Timber, you write your HTML using the Twig Template Engine separate from your PHP files.".
+
+I created some example repositories, v2 is currently in beta:
 
 - https://github.com/mandrasch/ddev-wp-timber-v1 (stable)
 - https://github.com/mandrasch/ddev-wp-timber-v2 (beta)
