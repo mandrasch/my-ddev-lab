@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as a,a as o}from"./app.7f52e756.js";const u=JSON.parse('{"title":"Composer","description":"","frontmatter":{},"headers":[],"relativePath":"ddev-composer.md","lastUpdated":1665321171000}'),r={name:"ddev-composer.md"},t=o("",8),p=[t];function n(c,l,d,i,m,h){return a(),s("div",null,p)}var y=e(r,[["render",n]]);export{u as __pageData,y as default};
