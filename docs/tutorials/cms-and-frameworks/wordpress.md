@@ -79,6 +79,10 @@ TODO: Add content
 
 TODO: Add content / how to use SSH keys there?
 
+## Vite integration
+
+- See: https://github.com/mandrasch/ddev-wp-vite-demo
+
 ## Roots Sage (+ Roots Bedrock)
 
 Roots offers "Advanced WordPress Development Tools". I decided to test them with DDEV:
