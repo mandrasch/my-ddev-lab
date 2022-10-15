@@ -88,6 +88,10 @@ You can even use DDEV in your browser (via Gitpod cloud), if you don't have a lo
 TODO: Add screencast
 TODO: Add more information
 
+## Vite integration
+
+- See: https://github.com/mandrasch/ddev-wp-vite-demo
+
 ## Roots Sage (+ Roots Bedrock)
 
 Roots offers "Advanced WordPress Development Tools". I decided to test them with DDEV:
