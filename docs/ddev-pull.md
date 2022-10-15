@@ -9,9 +9,9 @@ The official docs for this DDEV feature can be found here:
 
 I used `ddev pull` mostly for WordPress, see the according sub pages to get more information:
 
-- [Pulling WordPress](cms-and-frameworks/wordpress.html#pulling-wordpress)
+- [Pulling WordPress](/tutorials/cms-and-frameworks/wordpress.html#pulling-wordpress)
 
-This can also be used for other CMS like [Typo3](cms-and-frameworks/typo3.html), but I haven't published (or found) demo code.
+This can also be used for other CMS like [Typo3](/tutorials/cms-and-frameworks/typo3.html), but I haven't published (or found) demo code.
 
 ## Connect with the community 🤗
 
