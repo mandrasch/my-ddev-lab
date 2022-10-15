@@ -41,6 +41,10 @@ ddev launch
 
 Source: [Quick start docs for DDEV + WordPress](https://ddev.readthedocs.io/en/stable/users/cli-usage/#command-line-setup-example-using-wp-cli)
 
+## Vite integration
+
+See latest demo repository https://github.com/mandrasch/ddev-wp-vite-demo and more information on this docs page: [DDEV + Vite](../nodejs-tools/vite.html).
+
 ## Pulling WordPress
 
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull databases and files from remote servers to your local development project.
@@ -87,10 +91,6 @@ You can even use DDEV in your browser (via Gitpod cloud), if you don't have a lo
 
 TODO: Add screencast
 TODO: Add more information
-
-## Vite integration
-
-- See: https://github.com/mandrasch/ddev-wp-vite-demo
 
 ## Roots Sage (+ Roots Bedrock)
 
