@@ -5,15 +5,15 @@ head:
       content: "Installing WordPress in DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI),therefore you can just download WordPress and install it locally:"
 ---
 
+# WordPress
+
 ::: info
 🚧 &nbsp; This chapter is work in progress (WIP) . Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
 :::
 
-# WordPress
-
 ## Quick install
 
-Installing WordPress with DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI).
+Installing WordPress with [DDEV](https://ddev.readthedocs.io/en/stable/) is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI).
 
 If you create a DDEV project with `ddev config --project-type=wordpress`, a wp-config.php is created which already contains the correct database connection settings (db, db, db) for DDEV.
 
@@ -39,45 +39,54 @@ ddev wp core download
 ddev launch
 ```
 
-[Official docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#command-line-setup-example-using-wp-cli)
+Source: [Quick start docs for DDEV + WordPress](https://ddev.readthedocs.io/en/stable/users/cli-usage/#command-line-setup-example-using-wp-cli)
 
 ## Pulling WordPress
 
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull databases and files from remote servers to your local development project.
 
-- TODO: Move docs from https://github.com/mandrasch/ddev-pull-wp-scripts to this documenation.
-- TODO: Move blog posts?
-  - https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
-  - https://matthias-andrasch.eu/blog/2022/pull-a-wordpress-site-into-ddev-2022-edition/
-  - https://matthias-andrasch.eu/blog/2021/import-a-wordpress-site-into-ddev-ddev-pull-backwpupfile/
-- What about online tool? https://ddev-pull-wp.mandrasch.eu/
+I wrote an example online tool to help you get started with the basic configuration:
 
-### Pull via BackWPup
+- https://ddev-pull-wp.mandrasch.eu/
 
-TODO: Add screencast
-
-- https://github.com/mandrasch/ddev-pull-wp-scripts#-ddev-pull-backup
-
-TODO: Add content
-
-### Pull via BackWPup into GitPod
-
-TODO: Add screencast
-
-- https://github.com/mandrasch/ddev-pull-wp-scripts#-ddev-pull-backup
-- https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
-
-TODO: Add content
-
-### Pull via SSH
-
-- https://github.com/mandrasch/ddev-pull-wp-scripts#%EF%B8%8F--ddev-pull-ssh
+Here is an example video for SSH pull:
 
 <TwoClickYoutubePrivacy videoId="lEGL65H-hts" />
 
+### Pull via SSH
+
+- Generator: https://ddev-pull-wp.mandrasch.eu/
+- Docs: https://github.com/mandrasch/ddev-pull-wp-scripts#%EF%B8%8F--ddev-pull-ssh
+
+More information, maybe slightly outdated:
+
+- https://matthias-andrasch.eu/blog/2022/pull-a-wordpress-site-into-ddev-2022-edition/
+
 ### Pull via SSH into Gitpod
 
-TODO: Add content / how to use SSH keys there?
+TODO: Add this method / how to use SSH keys there?
+
+### Pull via BackWPup
+
+Don't want to fiddle around with SSH? You can just use the free BackWpUp plugin to create a `.zip` backup and import it into a DDEV WordPress project.
+
+- Generator: https://ddev-pull-wp.mandrasch.eu/
+- Docs: https://github.com/mandrasch/ddev-pull-wp-scripts#-ddev-pull-backup
+
+TODO: Add screencast
+
+More resources, maybe slightly outdated:
+
+- https://matthias-andrasch.eu/blog/2021/import-a-wordpress-site-into-ddev-ddev-pull-backwpupfile/
+
+### Pull via BackWPup into GitPod
+
+You can even use DDEV in your browser (via Gitpod cloud), if you don't have a local development environment currently setup. This could be also a good way to let designers participate in PHP projects in future:
+
+- https://matthias-andrasch.eu/blog/2022/launch-a-wordpress-clone-in-your-browser-via-ddev-gitpod-launcher/
+
+TODO: Add screencast
+TODO: Add more information
 
 ## Roots Sage (+ Roots Bedrock)
 
@@ -92,7 +101,11 @@ Current open question regarding [HMR and internal links](https://discourse.roots
 
 [Timber](https://upstatement.com/timber/) "helps you create fully-customized WordPress themes faster with more sustainable code. With Timber, you write your HTML using the Twig Template Engine separate from your PHP files.".
 
-I created some example repositories, v2 is currently in beta:
+I created some example repositories, v2 is currently in beta and my demo is not fully functional yet:
 
 - https://github.com/mandrasch/ddev-wp-timber-v1 (stable)
 - https://github.com/mandrasch/ddev-wp-timber-v2 (beta)
+
+## Connect with community 🤗
+
+There is a dedicated #WordPress-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!

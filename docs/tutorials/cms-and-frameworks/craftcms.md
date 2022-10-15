@@ -13,6 +13,14 @@ head:
 
 ## Quickstart
 
+CraftCMS is now offically supported by DDEV as project type since DDEV v1.21.1. 🥳 See DDEV quickstart docs:
+
+https://ddev.readthedocs.io/en/stable/users/quickstart/#craft-cms
+
+<hr>
+
+Old documentation:
+
 Based on [Intro to CraftCMS: Install](https://craftcms.com/docs/getting-started-tutorial/install/)
 
 ```sh
@@ -56,6 +64,6 @@ https://github.com/mandrasch/ddev-craftcms-example
 
 - [Deploy Craft CMS with DDEV, Deployer and Ploi on Hetzner Cloud - Part 1](https://dev.to/mandrasch/deploy-craft-cms-with-ddev-deployer-and-ploi-on-hetzner-cloud-part-1-27l2)
 
-## Connect with community
+## Connect with the community 🤗
 
 There is a dedicated #craftcms-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!

@@ -11,7 +11,7 @@ if (process.env.BASE_PATH) {
 
 export default defineConfig({
   lang: "en-US",
-  title: "My DDEV Lab",
+  title: "@mandrasch's DDEV Lab",
   description:
     "This site contains my experimental projects done with the awesome developer environment tool DDEV (Open Source). Authored by Matthias Andrasch.",
   lastUpdated: true,
@@ -87,8 +87,12 @@ function getGeneralSidebar() {
       text: "NodeJS",
       items: [
         {
-          text: "Browsersync, LaravelMix, Vite, etc.",
-          link: "/tutorials/nodejs-tools/laravel-mix-vite-etc",
+          text: "Browsersync / LaravelMix",
+          link: "/tutorials/nodejs-tools/laravel-mix-browsersync",
+        },
+        {
+          text: "Vite",
+          link: "/tutorials/nodejs-tools/vite",
         },
       ],
     },

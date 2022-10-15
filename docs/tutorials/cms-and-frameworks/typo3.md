@@ -7,6 +7,10 @@ head:
 
 # Typo3
 
+::: info
+🚧 &nbsp; This chapter is work in progress (WIP) . Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+:::
+
 **Quickstart**
 
 For a quickstart see the official typo3 docs:
@@ -39,3 +43,7 @@ WANTED: Example code. If you have a ddev/providers/-script which pulls database 
 
 - See twitter discussion: https://twitter.com/kino_auge/status/1539843362127319040
 - NEW: https://github.com/fgeierst/typo3-vite-demo
+
+## Connect with community 🤗
+
+There is a dedicated #typo3-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!

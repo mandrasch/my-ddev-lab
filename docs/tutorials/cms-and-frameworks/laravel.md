@@ -1,5 +1,9 @@
 # Laravel
 
+#::: info
+🚧 &nbsp; This chapter is work in progress (WIP) . Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+:::
+
 This is the quickstart for the latest Laravel version:
 
 ```bash
@@ -11,11 +15,21 @@ ddev config --project-type=laravel --docroot=public --create-docroot && \
   ddev exec "php artisan key:generate"
 ```
 
-Source: [DDEV docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#laravel-composer-setup-example)
+Source: [DDEV quick start docs](https://ddev.readthedocs.io/en/stable/users/cli-usage/#laravel-composer-setup-example)
 
-## Starter kits (with vite)
+## Vite
 
-📣 There is a new quickstart guide for laravel + vite coming to the DDEV docs, preview here: https://ddev--4236.org.readthedocs.build/en/4236/users/quickstart/#using-vite 📣 
+The DDEV Quickstart docs now have a full tutorial for using Laravel + Vite since v1.21.1: 🥳
+
+- https://ddev.readthedocs.io/en/stable/users/quickstart/#using-vite
+
+## Connect with the community 🤗
+
+There is a dedicated #laravel-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!
+
+<hr>
+
+Outdated documentation:
 
 ### Breeze (OUTDATED)
 
@@ -48,34 +62,28 @@ ddev get torenware/ddev-viteserve
 Change `VITE_PROJECT_DIR=frontend` to `VITE_PROJECT_DIR=./` in `.ddev/docker-compose.viteserve.yaml`:
 
 ```yaml
-    environment:
-      # Set the vite-enabled js project here:
-      - VITE_PROJECT_DIR=./
+environment:
+  # Set the vite-enabled js project here:
+  - VITE_PROJECT_DIR=./
 ```
 
 Add https and host URL to `vite.config.js`
 
 ```javascript
-import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+import { defineConfig } from "vite";
+import laravel from "laravel-vite-plugin";
 
 export default defineConfig({
-    plugins: [
-        laravel([
-            'resources/css/app.css',
-            'resources/js/app.js',
-        ]),
-    ],
-    server: {
-        https: true,
-        port: 3001,
-        hmr: {
-          host: 'laravel-breeze-test-vite.ddev.site'
-        }
+  plugins: [laravel(["resources/css/app.css", "resources/js/app.js"])],
+  server: {
+    https: true,
+    port: 3001,
+    hmr: {
+      host: "laravel-breeze-test-vite.ddev.site",
     },
+  },
 });
 ```
-
 
 **IMPORTANT:** There was a bug in [laravel-vite-plugin](https://www.npmjs.com/package/laravel-vite-plugin), which did not use hmr.host for the blade @vite template. Update to [v.0.3](https://github.com/laravel/vite-plugin/releases/tag/v0.3.0) with
 
@@ -94,7 +102,7 @@ Open the login/ page (vite is not used on the index page) with
 
 ```
 ddev launch /login
-````
+```
 
 Also getting these warnings
 
@@ -111,7 +119,6 @@ Also getting these warnings
 Current progress:
 
 - https://github.com/torenware/ddev-viteserve/issues/2
-
 
 ## Inertia
 
