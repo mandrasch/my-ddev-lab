@@ -10,13 +10,13 @@ sidebarDepth: 2
 
 This site contains my personal notes on working with [DDEV](/what-is-ddev) in my web projects.
 
-🚧 &nbsp;Most of this stuff is _Work in Progress_, but I hope it offers some helpful insights to you. 🚧
+<p style="text-align:center;">🚧 &nbsp;Most of this stuff is <i>Work in Progress</i>, but I<br> hope it offers some helpful insights to you. 🚧</p>
 
 My main goal is to enable robust and standardized local development instances for a great developer experience in team projects.
 
 Additionally I try to enable one-click-development in the browser via [Gitpod](/ddev-meets-gitpod) in the demo projects.
 
-Personally try to follow the https://sustainablewebdesign.org/ approach as much as possible + build accessible websites which are WCAG-compliant.
+As a developer I follow the https://sustainablewebdesign.org/ approach as much as possible + build accessible websites which are WCAG-compliant.
 
 Kudos to DDEV maintainer Randy Fay, all DDEV contributors and my developer colleagues at [gugler\* MarkenSinn](https://markensinn.at/) who introduced me to DDEV!
 
