@@ -35,7 +35,7 @@ The challenge in terms of DDEV is that you should acknowledge that DDEV runs it 
 
 DDEV then needs to expose the port 5173 via https to the outside, this is done in [docker-compose.viteserve.yaml](https://github.com/torenware/ddev-viteserve/blob/master/docker-compose.viteserve.yaml).
 
-An important first check is that vite is accessible via `https://your-ddev-project.ddev.site::5173/@vite/client?ver=1.0.0` after you run `ddev vite-serve start`.
+An important first check is that vite is accessible via `https://your-ddev-project.ddev.site:5173/@vite/client?ver=1.0.0` after you run `ddev vite-serve start`.
 
 Afterwards your CMS / PHP frameworks needs to be configured accordingly, see above. The official docs for this can be found here: https://vitejs.dev/guide/backend-integration.html
 
