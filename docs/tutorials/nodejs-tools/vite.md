@@ -20,7 +20,9 @@ VITE_JS_PACKAGE_MGR=npm
 # end vite
 ```
 
-Vite integration differs by CMS, each CMS has their own approach. Some use a combination of a special NodeJS vite plugin + PHP code, e.g. Laravel. Some only use PHP integration. See examples here:
+Vite integration differs by CMS, each CMS has their own approach. Some use a combination of a special NodeJS vite plugin + PHP code, e.g. Laravel. Some vite as it is and use PHP integration for including the vite client scripts accordingly.
+
+See examples here:
 
 - Laravel: https://ddev.readthedocs.io/en/stable/users/quickstart/#using-vite
 - CraftCMS: https://nystudio107.com/docs/vite/#using-ddev
