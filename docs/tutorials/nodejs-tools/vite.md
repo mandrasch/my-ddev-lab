@@ -9,7 +9,7 @@ head:
 
 There is a new plugin for DDEV called [viteserve](https://github.com/torenware/ddev-viteserve) by torenware. It runs vite in the background and has support for package managers npm, yarn and pnpm (default).
 
-You can configure it (after installation) via `.ddev/.env`, here is an example for having vite config in a subfolder:
+You can configure it (after installation) via `.ddev/.env`, here is an example for having vite config in a subfolder. If you want to use the project root, use `VITE_PROJECT_DIR=.`.
 
 ```bash
 # start vite
@@ -38,6 +38,8 @@ DDEV then needs to expose the port 5173 via https to the outside, this is done i
 An important first check is that vite is accessible via `https://your-ddev-project.ddev.site::5173/@vite/client?ver=1.0.0` after you run `ddev vite-serve start`.
 
 Afterwards your CMS / PHP frameworks needs to be configured accordingly, see above. The official docs for this can be found here: https://vitejs.dev/guide/backend-integration.html
+
+## Full documentation
 
 See full documentation for DDEV viteserve here: https://github.com/torenware/ddev-viteserve
 
