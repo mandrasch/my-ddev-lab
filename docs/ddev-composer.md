@@ -21,3 +21,7 @@ ddev launch
 TODO: Add comment by rfay (https://github.com/drud/ddev/issues/4058#issuecomment-1201848592)
 
 Read more in the [official docs](https://ddev.readthedocs.io/en/stable/users/developer-tools/#ddev-and-composer).
+
+## Connect with the community 🤗
+
+There are dedicated CMS channels on [DDEV discord](https://discord.gg/hCZFfAMc5k), e.g. for Laravel, WordPress, typo3, CraftCMS, Drupal, etc.!

@@ -17,3 +17,7 @@ TODO: add content / tutorial
 **Technical background:**
 
 <TwoClickYoutubePrivacy videoId="Kx5nnuEUsiY" />
+
+## Connect with the community 🤗
+
+There are dedicated CMS channels on [DDEV discord](https://discord.gg/hCZFfAMc5k), e.g. for Laravel, WordPress, typo3, CraftCMS, Drupal, etc.!

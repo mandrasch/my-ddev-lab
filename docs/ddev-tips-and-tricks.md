@@ -17,7 +17,6 @@ Source: [Discord](https://discord.com/channels/664580571770388500/99378655438648
 ddev poweroff
 ```
 
-
 **Update DDEV**
 
 See [latest Release](https://github.com/drud/ddev/releases) for instructions. The current version can be shown via
@@ -26,3 +25,10 @@ See [latest Release](https://github.com/drud/ddev/releases) for instructions. Th
 ddev -v
 ```
 
+## Awesome DDEV
+
+See https://github.com/drud/awesome-ddev for more tips, tutorials and demo code.
+
+## Connect with the community 🤗
+
+There are dedicated CMS channels on [DDEV discord](https://discord.gg/hCZFfAMc5k), e.g. for Laravel, WordPress, typo3, CraftCMS, Drupal, etc.!
