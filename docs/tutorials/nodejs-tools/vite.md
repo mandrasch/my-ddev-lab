@@ -27,7 +27,9 @@ See examples here:
 - Laravel: https://ddev.readthedocs.io/en/stable/users/quickstart/#using-vite
 - CraftCMS: https://nystudio107.com/docs/vite/#using-ddev
 - Typo3: https://github.com/fgeierst/typo3-vite-demo
-- WordPress: https://github.com/mandrasch/ddev-wp-vite-demo
+- WordPress: https://github.com/mandrasch/ddev-wp-vite-demo (OLD)
+- NEW: https://github.com/mandrasch/ddev-typo3-vite-svelte
+- NEW: https://github.com/mandrasch/ddev-wp-acf-blocks-svelte
 
 More to come!
 
