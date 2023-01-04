@@ -45,7 +45,11 @@ Source: [Quick start docs for DDEV + WordPress](https://ddev.readthedocs.io/en/s
 
 See latest demo repository https://github.com/mandrasch/ddev-wp-vite-demo and more information on this docs page: [DDEV + Vite](../nodejs-tools/vite.html).
 
-## Pulling WordPress
+## ACF Blocks + Svelte + Vite 🧡
+
+https://github.com/mandrasch/ddev-wp-acf-blocks-svelte
+
+## Pulling WordPress (ddev pull)
 
 DDEV offers an incredible feature called [Hosting Provider Integration](https://ddev.readthedocs.io/en/stable/users/providers/provider-introduction/). This enables writing little scripts which can pull databases and files from remote servers to your local development project.
 
@@ -92,7 +96,7 @@ You can even use DDEV in your browser (via Gitpod cloud), if you don't have a lo
 TODO: Add screencast
 TODO: Add more information
 
-## Roots Sage (+ Roots Bedrock)
+## Roots Sage (+ Roots Bedrock) (old experiment)
 
 Roots offers "Advanced WordPress Development Tools". I decided to test them with DDEV:
 
@@ -101,7 +105,7 @@ Roots offers "Advanced WordPress Development Tools". I decided to test them with
 
 Current open question regarding [HMR and internal links](https://discourse.roots.io/t/should-links-be-replaced-with-port-3000-as-well-in-dev-mode-hmr-ddev/24026)
 
-## Timber
+## Timber (old experiment)
 
 [Timber](https://upstatement.com/timber/) "helps you create fully-customized WordPress themes faster with more sustainable code. With Timber, you write your HTML using the Twig Template Engine separate from your PHP files.".
 
