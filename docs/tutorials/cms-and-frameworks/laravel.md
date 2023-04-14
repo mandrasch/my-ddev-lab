@@ -18,7 +18,7 @@ Source: Official [DDEV quick start docs](https://ddev.readthedocs.io/en/stable/u
 
 ## Vite support
 
-See the README of [ddev-laravel-vite](https://github.com/mandrasch/ddev-laravel-vite).
+See the README of [ddev-laravel-vite](https://github.com/mandrasch/ddev-laravel-vite#how-was-this-created).
 
 - https://github.com/mandrasch/ddev-laravel-vite (WIP / NEW)
 - https://github.com/mandrasch/ddev-laravel-breeze-vite/ (Outdated, needs changes)
