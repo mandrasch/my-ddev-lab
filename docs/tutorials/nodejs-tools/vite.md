@@ -40,6 +40,7 @@ See some examples here:
 ### CraftCMS
 
 - See: https://nystudio107.com/docs/vite/#using-ddev
+- https://twitter.com/thomasbendl/status/1628741476355112962 / https://github.com/szenario-fordesigners/craft-vite-starter
 
 ### TYPO3
 
