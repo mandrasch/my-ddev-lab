@@ -17,9 +17,13 @@ CraftCMS is now offically supported by DDEV as project type since DDEV v1.21.1. 
 
 https://ddev.readthedocs.io/en/stable/users/quickstart/#craft-cms
 
+CraftCMS + DDEV + vite (via [nystudio107/craft-vite](https://github.com/nystudio107/craft-vite)):
+
+https://github.com/mandrasch/ddev-craftcms-vite
+
 <hr>
 
-Old documentation:
+### Old documentation:
 
 Based on [Intro to CraftCMS: Install](https://craftcms.com/docs/getting-started-tutorial/install/)
 
