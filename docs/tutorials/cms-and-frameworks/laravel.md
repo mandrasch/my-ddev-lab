@@ -23,7 +23,7 @@ See the README of [ddev-laravel-vite](https://github.com/mandrasch/ddev-laravel-
 - https://github.com/mandrasch/ddev-laravel-vite (WIP / NEW)
 - https://github.com/mandrasch/ddev-laravel-breeze-vite/ (Outdated, needs changes)
 
-Also check out [DDEV + vite](./tutorials/nodejs-tools/vite.html) for more technical information.
+Also check out [DDEV + vite](/tutorials/nodejs-tools/vite) for more technical information.
 
 ## Connect with the community 🤗
 
