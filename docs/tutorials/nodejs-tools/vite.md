@@ -36,6 +36,7 @@ See some examples here:
 
 - https://github.com/mandrasch/ddev-laravel-vite (WIP)
 - https://github.com/mandrasch/ddev-laravel-breeze-vite/ (Outdated, needs changes)
+- https://github.com/tyler36/lara10-base-demo/
 
 ### CraftCMS
 
