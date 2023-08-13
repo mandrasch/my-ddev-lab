@@ -22,4 +22,4 @@ Acknowledgements:
 
 - Kudos to DDEV maintainer Randy Fay and all open source contributors!
 - Thanks to my former developer colleagues at [gugler\* MarkenSinn](https://markensinn.at/) who introduced me to DDEV in the first place.
-- Thanks to [dotsandlines](https://www.dotsandlines.io/) for the opportunity to learn some things about GitHub Codespaces.
+- Thanks to [dotsandlines](https://www.dotsandlines.io/) for the opportunity to learn some things about DDEV + GitHub Codespaces.
