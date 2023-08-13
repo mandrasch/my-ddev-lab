@@ -64,7 +64,6 @@ function getGeneralSidebar() {
         { text: "Hello!", link: "/" },
         { text: "What is DDEV?", link: "/what-is-ddev" },
         { text: "DDEV + Composer", link: "/ddev-composer" },
-        { text: "DDEV + Gitpod", link: "/ddev-meets-gitpod" },
         { text: "DDEV pull", link: "/ddev-pull" },
         { text: "DDEV tips & tricks", link: "/ddev-tips-and-tricks" },
       ],
@@ -81,6 +80,13 @@ function getGeneralSidebar() {
         { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
         { text: "Typo3", link: "/tutorials/cms-and-frameworks/typo3" },
         { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
+      ],
+    },
+    {
+      text: "Cloud development",
+      items: [
+        { text: "Gitpod", link: "/tutorials/cloud/gitpod" },
+        { text: "Codespaces", link: "/tutorials/cloud/codespaces" },
       ],
     },
     {

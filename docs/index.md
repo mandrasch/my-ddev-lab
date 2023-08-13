@@ -1,24 +1,25 @@
 ---
+title: Welcome!
 head:
   - - meta
     - name: description
-      content: "Installing WordPress in DDEV is super simple. DDEV has already built-in support for the WordPress Command Line Tools (WP-CLI),therefore you can just download WordPress and install it locally:"
+      content: "This site contains my personal notes for [DDEV](/what-is-ddev). Most stuff is experimental / work in progress, but I hope it offers some helpful insights for you."
 sidebarDepth: 2
 ---
 
-# Hello!
+**Hi!**
 
-This site contains my personal notes on working with [DDEV](/what-is-ddev) in my web projects.
+This site contains my personal notes for [DDEV](/what-is-ddev).
 
-My main goal is to enable robust and standardized local development instances for a great developer experience in team projects.
+Most stuff is experimental / "work in progress", but I hope it offers some helpful insights for you.
 
-Additionally I try to enable one-click-development in the browser via [Gitpod](/ddev-meets-gitpod) in the demo projects.
-
-As a developer I follow the https://sustainablewebdesign.org/ approach as much as possible + build accessible websites which are WCAG-compliant.
-
-Kudos to DDEV maintainer Randy Fay, all DDEV contributors and my developer colleagues at [gugler\* MarkenSinn](https://markensinn.at/) who introduced me to DDEV!
+Feel free to re-use it, my own work is available open source.
 
 Cheers and have fun!<br>
-[@m_andrasch](https://twitter.com/m_andrasch)
+[Matthias](https://mandrasch.dev)
 
-<p style="text-align:center;">🚧 &nbsp;Most of this stuff is <i>Work in Progress</i>, but I<br> hope it offers some helpful insights to you. 🚧</p>
+Acknowledgements:
+
+- Kudos to DDEV maintainer Randy Fay and all open source contributors!
+- Thanks to my former developer colleagues at [gugler\* MarkenSinn](https://markensinn.at/) who introduced me to DDEV in the first place.
+- Thanks to [dotsandlines](https://www.dotsandlines.io/) for the opportunity to learn some things about GitHub Codespaces.

@@ -70,9 +70,9 @@ More information, maybe slightly outdated:
 
 - https://matthias-andrasch.eu/blog/2022/pull-a-wordpress-site-into-ddev-2022-edition/
 
-### Pull via SSH into Gitpod
+### Pull via SSH into Gitpod / GitHub Codespaces
 
-TODO: Add this method / how to use SSH keys there?
+_Did not try this yet_
 
 ### Pull via BackWPup
 
@@ -81,11 +81,7 @@ Don't want to fiddle around with SSH? You can just use the free BackWpUp plugin 
 - Generator: https://ddev-pull-wp.mandrasch.eu/
 - Docs: https://github.com/mandrasch/ddev-pull-wp-scripts#-ddev-pull-backup
 
-TODO: Add screencast
-
-More resources, maybe slightly outdated:
-
-- https://matthias-andrasch.eu/blog/2021/import-a-wordpress-site-into-ddev-ddev-pull-backwpupfile/
+- Tutorial: https://dev.to/mandrasch/import-wordpress-site-into-local-project-via-ddev-backwpup-18p6
 
 ### Pull via BackWPup into GitPod
 
