@@ -14,7 +14,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
       - name: Use Node LTS
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: "18" # lts
 
@@ -51,7 +51,7 @@ jobs:
           npm run build
 
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.host }}
           username: ${{ secrets.user }}
