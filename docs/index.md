@@ -1,25 +1,23 @@
 ---
-title: Welcome!
+title: Modern web development with DDEV (docker)
 head:
   - - meta
     - name: description
-      content: "This site contains my personal notes for [DDEV](/what-is-ddev). Most stuff is experimental / work in progress, but I hope it offers some helpful insights for you."
+      content: "These are my personal notes for modern web development with DDEV (docker). Most stuff is experimental, many notes are quite messy - but I hope it offers some helpful insights for you."
 sidebarDepth: 2
 ---
 
-**Hi!**
+# Hi there!
 
-This site contains my personal notes for [DDEV](/what-is-ddev).
+These are my personal notes for modern web development with [DDEV](/what-is-ddev).
 
-Most stuff is experimental / "work in progress", but I hope it offers some helpful insights for you.
-
-Feel free to re-use it, my own work is available open source.
+Most stuff is experimental, many notes are quite messy - but I hope it offers some helpful insights for you. My own work and scripts are available as open source, feel free to re-use.
 
 Cheers and have fun!<br>
 [Matthias](https://mandrasch.dev)
 
-Acknowledgements:
+_Acknowledgements:_
 
-- Kudos to DDEV maintainer Randy Fay and all open source contributors!
+- Kudos to DDEV maintainer [Randy Fay](https://twitter.com/randyfay), all open source contributors and the whole DDEV community!
 - Thanks to my former developer colleagues at [gugler\* MarkenSinn](https://markensinn.at/) who introduced me to DDEV in the first place.
-- Thanks to [dotsandlines](https://www.dotsandlines.io/) for the opportunity to learn some things about DDEV + GitHub Codespaces.
+- Thanks very much to [dotsandlines](https://www.dotsandlines.io/) for the opportunity to gain some experiences about DDEV + GitHub Codespaces.
