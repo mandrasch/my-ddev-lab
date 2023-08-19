@@ -1,4 +1,9 @@
 import { defineConfig } from "vitepress";
+// for sitemap generation
+import { createContentLoader } from "vitepress";
+import { SitemapStream } from "sitemap";
+import { createWriteStream } from "node:fs";
+import { resolve } from "node:path";
 
 let basePath = "/";
 if (process.env.BASE_PATH) {
@@ -53,6 +58,31 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/mandrasch/my-ddev-lab" },
     ],
+  },
+
+  // sitemap generation
+  // (https://dev.to/paullaros/generating-a-dynamic-sitemap-with-vitepress-ldd)
+  buildEnd: async ({ outDir }) => {
+    // TODO: Use config / env var?
+    const sitemap = new SitemapStream({
+      hostname: "https://my-ddevlab.mandrasch.eu/",
+    });
+    const pages = await createContentLoader(["**/*.md"]).load();
+    const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
+    console.log({ pages });
+    sitemap.pipe(writeStream);
+    pages.forEach((page) =>
+      sitemap.write(
+        page.url
+          // Strip `index.html` from URL
+          .replace(/index.html$/g, "")
+          // Optional: if Markdown files are located in a subfolder
+          .replace(/^\/docs/, "")
+      )
+    );
+    sitemap.end();
+
+    await new Promise((r) => writeStream.on("finish", r));
   },
 });
 
