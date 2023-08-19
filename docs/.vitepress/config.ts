@@ -51,7 +51,7 @@ export default defineConfig({
 
     sidebar: {
       "/tutorials/": getGeneralSidebar(),
-      "/config/": getConfigSidebar(), // subpage
+      // "/config/": getConfigSidebar(), // subpage
       "/": getGeneralSidebar(),
     },
 
@@ -99,17 +99,58 @@ function getGeneralSidebar() {
       ],
     },
     {
+      text: "Docker runtimes",
+      items: [
+        {
+          text: "Colima",
+          link: "tutorials/docker-runtimes/colima.md",
+        },
+        {
+          text: "Orbstack",
+          link: "tutorials/docker-runtimes/orbstack.md",
+        },
+      ],
+    },
+    {
+      text: "NodeJS",
+      items: [
+        {
+          text: "Vite",
+          link: "/tutorials/nodejs-tools/vite",
+        },
+        {
+          text: "Other buildtools",
+          link: "/tutorials/nodejs-tools/laravel-mix-browsersync",
+        },
+      ],
+    },
+    {
       text: "CMS & frameworks",
       items: [
-        { text: "Craft CMS", link: "/tutorials/cms-and-frameworks/craftcms" },
-        { text: "Kirby", link: "/tutorials/cms-and-frameworks/kirby" },
+        {
+          text: "Craft CMS",
+          link: "/tutorials/cms-and-frameworks/craftcms",
+        },
+        {
+          text: "Kirby",
+          link: "/tutorials/cms-and-frameworks/kirby",
+        },
         {
           text: "Laravel",
           link: "/tutorials/cms-and-frameworks/laravel",
         },
-        { text: "Statamic", link: "/tutorials/cms-and-frameworks/statamic" },
-        { text: "Typo3", link: "/tutorials/cms-and-frameworks/typo3" },
-        { text: "WordPress", link: "/tutorials/cms-and-frameworks/wordpress" },
+        {
+          text: "Statamic",
+          link: "/tutorials/cms-and-frameworks/statamic",
+        },
+        {
+          text: "Typo3",
+          link: "/tutorials/cms-and-frameworks/typo3",
+        },
+        {
+          text: "WordPress",
+          link: "/tutorials/cms-and-frameworks/wordpress",
+        },
       ],
     },
     {
@@ -120,15 +161,11 @@ function getGeneralSidebar() {
       ],
     },
     {
-      text: "NodeJS",
+      text: "Contributing to DDEV",
       items: [
         {
-          text: "Browsersync / LaravelMix",
-          link: "/tutorials/nodejs-tools/laravel-mix-browsersync",
-        },
-        {
-          text: "Vite",
-          link: "/tutorials/nodejs-tools/vite",
+          text: "Contributing to DDEV",
+          link: "/tutorials/contributing/general",
         },
       ],
     },
