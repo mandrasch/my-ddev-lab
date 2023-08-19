@@ -65,7 +65,7 @@ export default defineConfig({
   buildEnd: async ({ outDir }) => {
     // TODO: Use config / env var?
     const sitemap = new SitemapStream({
-      hostname: "https://my-ddevlab.mandrasch.eu/",
+      hostname: "https://my-ddev-lab.mandrasch.eu/",
     });
     const pages = await createContentLoader(["**/*.md"]).load();
     const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
