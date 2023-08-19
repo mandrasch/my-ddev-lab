@@ -3,6 +3,8 @@ import DefaultTheme from 'vitepress/theme'
 import TwoClickYoutubePrivacy from '../../components/TwoClickYoutubePrivacy.vue'
 import TwoClickGoogleSlidesPrivacy from '../../components/TwoClickGoogleSlidesPrivacy.vue';
 
+import './custom.css'
+
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
