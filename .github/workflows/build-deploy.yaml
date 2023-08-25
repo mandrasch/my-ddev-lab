@@ -43,6 +43,7 @@ jobs:
           npm ci
           npm run build
           ls -lsa
+          echo "/home/sites/${{ secrets.SSH_ACCOUNT_ID }}/web/my-ddev-lab.mandrasch.eu/"
 
       # transfer to separate webspace
       - name: rsync deployments
