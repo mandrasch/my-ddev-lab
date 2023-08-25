@@ -42,7 +42,7 @@ jobs:
         run: |
           npm ci
           npm run build
-          echo ls -lsa
+          ls -lsa
 
       # transfer to separate webspace
       - name: rsync deployments
