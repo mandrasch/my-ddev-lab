@@ -21,41 +21,37 @@ jobs:
       # This build runs with path prefix for github pages (hosted on subdirectory),
       # for example https://<USER>.github.io/<REPO-NAME>/
       # See: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
-      - name: Install and Build for Github Pages 🔧
-        run: |
-          npm ci
-          npm run build
-        env:
-          #  ELEVENTY_ENV: production
-          #  BASE_URL: 'https://${{ github.event.repository.owner.name }}.github.io/'
-          # https://vitepress.vuejs.org/config/basics.html#base
-          BASE_PATH: "/${{ github.event.repository.name }}/"
+      # - name: Install and Build for Github Pages 🔧
+      #   run: |
+      #     npm ci
+      #     npm run build
+      #   env:
+      #     # https://vitepress.vuejs.org/config/basics.html#base
+      #     BASE_PATH: "/${{ github.event.repository.name }}/"
 
       # Important > GitHub repo > settings > Actions -->
       # Allow read AND write for Github Action token, otherwise this will result in a error (as deploy action tries to push)
       # See https://github.com/JamesIves/github-pages-deploy-action/discussions/1104#discussioncomment-2678741
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: docs/.vitepress/dist # The folder the action should deploy.
+      # - name: Deploy 🚀
+      #   uses: JamesIves/github-pages-deploy-action@v4.3.3
+      #   with:
+      #     branch: gh-pages # The branch the action should deploy to.
+      #     folder: docs/.vitepress/dist # The folder the action should deploy.
 
-      # If you need more privacy / no tracking,
-      # sync your site to your own webspace
-      # https://github.com/marketplace/actions/ftp-deploy
-
-      # Build again if you need another path prefix
-      - name: Install and Build for FTP 🔧
+      - name: Install and Build 🔧
         run: |
-          npm install
+          npm ci
           npm run build
 
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      # transfer to separate webspace
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@6.0.0
         with:
-          server: ${{ secrets.host }}
-          username: ${{ secrets.user }}
-          password: ${{ secrets.password }}
-          protocol: ftps
-          #port: 23
-          local-dir: ./docs/.vitepress/dist/
+          # be careful with delete!
+          switches: -avzr --delete
+          path: docs/.vitepress/dist/
+          # e.g. /var/www/html/, siteXXXXX/web/my-ddev-lab.mandrasch.eu/
+          remote_path: "/home/sites/${{ secrets.SSH_ACCOUNT_ID }}/web/my-ddev-lab.mandrasch.eu/"
+          remote_host: ${{ secrets.SSH_HOST }}
+          remote_user: ${{ secrets.SSH_USER }}
+          remote_key: ${{ secrets.SSH_KEY }}
