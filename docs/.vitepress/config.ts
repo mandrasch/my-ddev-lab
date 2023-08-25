@@ -68,7 +68,7 @@ export default defineConfig({
       hostname: "https://my-ddev-lab.mandrasch.eu/",
     });
     const pages = await createContentLoader(["**/*.md"]).load();
-    const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
+    const writeStream = createWriteStream(resolve(outDir, "sitemap-docs.xml"));
     console.log({ pages });
     sitemap.pipe(writeStream);
     pages.forEach((page) =>
