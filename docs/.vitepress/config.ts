@@ -74,10 +74,10 @@ export default defineConfig({
     pages.forEach((page) =>
       sitemap.write(
         page.url
-          // Strip `index.html` from URL
-          .replace(/index.html$/g, "")
-          // Optional: if Markdown files are located in a subfolder
-          .replace(/^\/docs/, "")
+        // Strip `index.html` from URL
+        //.replace(/index.html$/g, "")
+        // Optional: if Markdown files are located in a subfolder
+        // .replace(/^\/docs/, "")
       )
     );
     sitemap.end();
