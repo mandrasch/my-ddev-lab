@@ -24,6 +24,17 @@ export default defineConfig({
   // https://vitepress.vuejs.org/config/basics.html#base
   base: basePath,
 
+  head: [
+    {
+      'script',
+      {
+          "defer": true,
+        "data-domain": "my-ddev-lab.mandrasch.eu",
+        src:"https://plausible.coolify.mandrasch.dev/js/script.js"
+      },
+    }
+  ],
+                            
   themeConfig: {
     editLink: {
       pattern: "https://github.com/mandrasch/my-ddev-lab/edit/main/docs/:path",
