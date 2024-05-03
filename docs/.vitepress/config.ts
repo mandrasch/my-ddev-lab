@@ -25,14 +25,14 @@ export default defineConfig({
   base: basePath,
 
   head: [
-    {
+    [
       'script',
       {
           "defer": true,
         "data-domain": "my-ddev-lab.mandrasch.eu",
         src:"https://plausible.coolify.mandrasch.dev/js/script.js"
-      },
-    }
+      }
+    ]
   ],
                             
   themeConfig: {
