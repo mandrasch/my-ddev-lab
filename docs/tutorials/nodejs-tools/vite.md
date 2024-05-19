@@ -67,22 +67,9 @@ An important first check is that vite is accessible via `https://your-ddev-proje
 
 Afterwards your CMS / PHP frameworks needs to be configured accordingly, see above. The official docs for this can be found here: https://vitejs.dev/guide/backend-integration.html
 
-## Add-On: ddev-viteserve
+## Codespaces
 
-There is a new plugin for DDEV called [viteserve](https://github.com/torenware/ddev-viteserve) by torenware. It runs vite in the background and has support for package managers npm, yarn and pnpm (default).
-
-You can configure it (after installation) via `.ddev/.env`, here is an example for having vite config in a subfolder. If you want to use the project root, use `VITE_PROJECT_DIR=.`.
-
-```bash
-# start vite
-VITE_PROJECT_DIR=wp-content/themes/twentytwentytwo-child/
-VITE_PRIMARY_PORT=5173
-VITE_SECONDARY_PORT=5273
-VITE_JS_PACKAGE_MGR=npm
-# end vite
-```
-
-See full documentation for DDEV viteserve here: https://github.com/torenware/ddev-viteserve
+Codespaces works differently since there is no ddev router used. Therefore exposing ports via `.ddev/config.yaml` will not work. You need to use docker compose file again, see e.g. https://github.com/mandrasch/ddev-craftcms-vite/blob/main/.devcontainer/postCreateCommand.sh for a workaround.
 
 ## Connect with the community 🤗
 
