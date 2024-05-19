@@ -6,7 +6,7 @@ head:
 ---
 
 ::: info
-This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Also support for [vite](https://stackoverflow.com/questions/72130137/ddev-laravel-vite-websockets-with-soketi-trouble-with-port-configuration/72405747) would be awesome. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+This chapter is work in progress (WIP) 🚧, [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) needs to be implemented for example. Also support for [Vite](https://stackoverflow.com/questions/72130137/ddev-laravel-vite-websockets-with-soketi-trouble-with-port-configuration/72405747) would be awesome. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
 :::
 
 # Statamic
@@ -84,6 +84,7 @@ ddev launch /cp
 General source: https://peak.1902.studio/getting-started/installation.html#installation-via-the-cli
 
 **TODO:**
+
 ### Troubleshooting
 
 If the starter kit install fails with `Composer could not authenticate with GitHub!`, [generate a token with no permissions](https://github.com/settings/tokens/new) on GitHub and store it to DDEV:
@@ -118,7 +119,7 @@ TODO: Add example for pull of these directories to local DDEV / use extension/.z
 ## TODOs
 
 - [ ] Add support for [browsersync / asset compilation](https://github.com/tyler36/ddev-browsersync#laravel-mix-example) via LaravelMix.
-(https://discord.com/channels/664580571770388500/912420662847619162/992748945107341372)
+      (https://discord.com/channels/664580571770388500/912420662847619162/992748945107341372)
 - [ ] Add support for Vite as soon as it is implemented officially https://stackoverflow.com/questions/72130137/ddev-laravel-vite-websockets-with-soketi-trouble-with-port-configuration/72405747
 - [ ] Implement DDEV pull script as addon(?)
 

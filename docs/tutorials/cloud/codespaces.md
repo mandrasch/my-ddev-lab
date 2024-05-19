@@ -8,9 +8,26 @@ The source code for the feature `install-ddev` can be found here here:
 
 - https://github.com/ddev/ddev/tree/master/.github/devcontainers/src/install-ddev
 
+You most likely will need a `wait_for_docker` function in your `postCreateCommand`-script:
+
+```bash
+# retry, see https://github.com/ddev/ddev/pull/5592
+wait_for_docker() {
+  while true; do
+    docker ps > /dev/null 2>&1 && break
+    sleep 1
+  done
+  echo "Docker is ready."
+}
+```
+
+See e.g.: https://github.com/mandrasch/ddev-craftcms-vite/blob/main/.devcontainer/postCreateCommand.sh
+
 ## Troubleshooting
 
 ### Could not connect to docker (daemon)
+
+Update 19.05.2024: The issue seems to still happen randomly, updated issue: https://github.com/devcontainers/features/issues/977
 
 There was a randomly occuring error "Could not connect to docker daemon", which was fixed in recent versions of `docker-in-docker`:
 

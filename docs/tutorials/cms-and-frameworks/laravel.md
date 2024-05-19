@@ -1,33 +1,20 @@
 # Laravel
 
-::: info
-🚧 &nbsp; This chapter is work in progress (WIP) . Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
-:::
+See
 
-This is the quickstart for the latest Laravel version with NodeJS LTS:
+- my latest guide on Laravel + DDEV + Vite: https://dev.to/mandrasch/install-laravel-with-vite-support-in-ddev-docker-4lmh
+- my demo repository https://github.com/mandrasch/ddev-laravel-vite.
 
-```bash
-ddev config --project-type=laravel --docroot=public --create-docroot --php-version=8.1 --nodejs-version=18
-ddev composer create --prefer-dist --no-install --no-scripts laravel/laravel -y
-ddev composer install
-ddev artisan key:generate
-ddev launch
-```
+as well as the official [DDEV quick start docs](https://ddev.readthedocs.io/en/stable/users/quickstart/#laravel).
 
-Source: Official [DDEV quick start docs](https://ddev.readthedocs.io/en/stable/users/quickstart/#laravel), slightly modified
+Other demos, they might need an update:
 
-## Vite support
-
-See the README of [ddev-laravel-vite](https://github.com/mandrasch/ddev-laravel-vite#how-was-this-created).
-
-- https://github.com/mandrasch/ddev-laravel-vite (WIP / NEW)
-- https://github.com/mandrasch/ddev-laravel-breeze-vite/ (Outdated, needs changes)
-
-Also check out [DDEV + vite](/tutorials/nodejs-tools/vite) for more technical information.
+- https://github.com/mandrasch/ddev-laravel-breeze-vite/
+- https://github.com/mandrasch/ddev-laravel-breeze-livewire
 
 ## Connect with the community 🤗
 
-Check out [DDEV Discord](https://discord.gg/hCZFfAMc5k)!
+Questions or problems regarding DDEV usage? Feel free to join the [DDEV discord](https://discord.gg/hCZFfAMc5k) and connect with the helpful community!
 
 <hr>
 
@@ -38,5 +25,3 @@ Outdated documentation:
 <TwoClickYoutubePrivacy videoId="XDn_itJ0s64" />
 
 - https://github.com/mandrasch/ddev-breeze-inertia-vue-starter (outdated)
-
-Would be also cool to test Statamic, LiveWire, etc. 🤗

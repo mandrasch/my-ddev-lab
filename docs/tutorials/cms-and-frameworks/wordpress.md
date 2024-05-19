@@ -8,7 +8,7 @@ head:
 # WordPress
 
 ::: info
-🚧 &nbsp; This chapter is work in progress (WIP) . Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+🚧 &nbsp; This chapter might be slightly outdated. Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
 :::
 
 ## Quick install

@@ -7,6 +7,8 @@ head:
 
 # Vite
 
+NEW: I wrote a detailed guide here: https://ddev.com/blog/working-with-vite-in-ddev/
+
 ## Expose all the ports!!1
 
 The most important thing for vite is to expose the vite port (5173) so that it can be accessed from outside the DDEV docker container (= from your laptop).
@@ -34,13 +36,13 @@ See some examples here:
 
 ### Laravel
 
-- https://github.com/mandrasch/ddev-laravel-vite (WIP)
+- https://github.com/mandrasch/ddev-laravel-vite
 - https://github.com/mandrasch/ddev-laravel-breeze-vite/ (Outdated, needs changes)
 - https://github.com/tyler36/lara10-base-demo/
 
 ### CraftCMS
 
-- https://github.com/mandrasch/ddev-craftcms-vite (WIP)
+- https://github.com/mandrasch/ddev-craftcms-vite
 - See: https://nystudio107.com/docs/vite/#using-ddev
 - https://twitter.com/thomasbendl/status/1628741476355112962 / https://github.com/szenario-fordesigners/craft-vite-starter
 

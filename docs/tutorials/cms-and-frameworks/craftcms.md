@@ -33,12 +33,6 @@ ploi.io is a server management tool, I explored this topic here:
 
 https://dev.to/mandrasch/install-craftcms-via-ploiio-on-hetzner-cloud-including-ddev-57f8
 
-## Deployment via Deployer
-
-I started to explore to explore this topic. Currently I'm not using deployer anymore for these tasks.
-
-- [Deploy Craft CMS with DDEV, Deployer and Ploi on Hetzner Cloud - Part 1](https://dev.to/mandrasch/deploy-craft-cms-with-ddev-deployer-and-ploi-on-hetzner-cloud-part-1-27l2)
-
 ## Connect with the community 🤗
 
-There is a dedicated #craftcms-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!
+Questions or problems regarding DDEV usage? Feel free to join the [DDEV discord](https://discord.gg/hCZFfAMc5k) and connect with the helpful community!

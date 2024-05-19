@@ -8,7 +8,7 @@ head:
 # Typo3
 
 ::: info
-🚧 &nbsp; This chapter is work in progress (WIP) . Happy to hear [your feedback / ideas](https://github.com/mandrasch/my-ddev-lab/issues)!
+🚧 &nbsp; This chapter is most likely outdate.
 :::
 
 **Quickstart**
@@ -16,13 +16,12 @@ head:
 For a quickstart see the official typo3 docs:
 https://ddev.readthedocs.io/en/latest/users/quickstart/#typo3
 
-TYPO3 Quick Installation Guide using DDEV, Composer and Sitepackagebuilder:
+See the official TYPO3 guide as well:
+https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Installation/TutorialDdev.html
 
-https://florian.geierstanger.org/blog/typo3-installation-guide
+**Vite?**
 
-Also a a very good tutorial on how to setup a local DDEV environment for typo3 and deploy everything via Gitlab/Github/Bitbucket pipelines:
-
-https://t3terminal.com/blog/de/typo3-gitlab-deployment/
+- See https://github.com/s2b/vite-asset-collector
 
 **DDEV providers (pull) integration**
 
@@ -39,11 +38,6 @@ WANTED: Example code. If you have a ddev/providers/-script which pulls database 
 
 - See twitter discussion https://twitter.com/m_andrasch/status/1552193558857359360
 
-**Vite?**
+## Connect with the community 🤗
 
-- See twitter discussion: https://twitter.com/kino_auge/status/1539843362127319040
-- NEW: https://github.com/fgeierst/typo3-vite-demo
-
-## Connect with community 🤗
-
-There is a dedicated #typo3-Channel on [DDEV discord](https://discord.gg/hCZFfAMc5k)!
+Questions or problems regarding DDEV usage? Feel free to join the [DDEV discord](https://discord.gg/hCZFfAMc5k) and connect with the helpful community!

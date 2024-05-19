@@ -1,6 +1,5 @@
 # Orbstack
 
-Haven't tested it, but looks promising:
+Orbstack runs very smooth and fast on Macs: https://orbstack.dev/
 
-- https://orbstack.dev/
-- https://github.com/ddev/ddev/issues/4858
+It is currently my runtime of choice.
