@@ -5,7 +5,7 @@ head:
       content: ""
 ---
 
-# Vite
+# Vite (in PHP CMS)
 
 NEW: I wrote a detailed guide here: https://ddev.com/blog/working-with-vite-in-ddev/
 

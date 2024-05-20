@@ -16,7 +16,7 @@ if (process.env.BASE_PATH) {
 
 export default defineConfig({
   lang: "en-US",
-  title: "@mandrasch's DDEV Lab",
+  title: "mandrasch's DDEV Lab",
   description:
     "This site contains my experimental projects done with the awesome developer environment tool DDEV (Open Source). Authored by Matthias Andrasch.",
   lastUpdated: true,
@@ -26,15 +26,15 @@ export default defineConfig({
 
   head: [
     [
-      'script',
+      "script",
       {
-          "defer": true,
+        defer: true,
         "data-domain": "my-ddev-lab.mandrasch.eu",
-        src:"https://plausible.coolify.mandrasch.dev/js/script.js"
-      }
-    ]
+        src: "https://plausible.coolify.mandrasch.dev/js/script.js",
+      },
+    ],
   ],
-                            
+
   themeConfig: {
     editLink: {
       pattern: "https://github.com/mandrasch/my-ddev-lab/edit/main/docs/:path",
@@ -128,6 +128,10 @@ function getGeneralSidebar() {
         {
           text: "Vite",
           link: "/tutorials/nodejs-tools/vite",
+        },
+        {
+          text: "nginx Proxy for Headless CMS",
+          link: "/tutorials/nodejs-tools/nginx-proxy-headless-cms",
         },
         {
           text: "Other buildtools",
